@@ -1,0 +1,468 @@
+[
+  {
+    pergunta: "Em que ano a FES foi fundada (com a denominação original 'Liga Sportiva Espírito Santense')?",
+    opcoes: ["1920", "1930", "1917", "1915"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual era o nome original da entidade que depois se tornou a FES?",
+    opcoes: ["Federação de Futebol do Espírito Santo", "Federação Esportiva Espírito-Santense", "Liga Sportiva Espírito Santense", "Associação Capixaba de Esportes"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Em que cidade está localizada a sede da FES?",
+    opcoes: ["Vitória", "Vila Velha", "Cariacica", "Serra"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual dessas competições é organizada diretamente pela FES?",
+    opcoes: ["Copa do Brasil", "Campeonato Mineiro", "Campeonato Capixaba", "Taça Guanabara"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual desses clubes faz parte do 'trio de ferro' do futebol capixaba?",
+    opcoes: ["Botafogo", "Desportiva Ferroviária", "Atlético Mineiro", "Paysandu"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Segundo dados de 2023, qual foi o valor aproximado dos investimentos da FES?",
+    opcoes: ["R$ 10 milhões", "R$ 2 milhões", "R$ 6 milhões", "R$ 8 milhões"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Em que ano a FES anunciou o calendário com 15 competições estaduais?",
+    opcoes: ["2025", "2026", "2024", "2023"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual é a principal função da Federação de Futebol do Estado do Espírito Santo?",
+    opcoes: ["Gerenciar apenas times da capital", "Administrar apenas categorias de base", "Promover torneios internacionais", "Organizar o futebol amador e profissional no estado"],
+    respostaCorreta: 4
+  },
+  {
+    pergunta: "A FES é filiada a qual entidade do futebol brasileiro?",
+    opcoes: ["FIFA", "Federação Paulista de Futebol", "Confederação Brasileira de Futebol (CBF)", "CONMEBOL"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual é a data oficial de fundação da atual FES, conforme o estatuto?",
+    opcoes: ["28 de abril de 1938", "15 de março de 1950", "21 de setembro de 1984", "02 de maio de 1917"],
+    respostaCorreta: 4
+  }
+]
+[
+  {
+    pergunta: "Qual estádio é considerado o principal palco do futebol capixaba?",
+    opcoes: ["Estádio Kléber Andrade", "Engenheiro Araripe", "Maracanã", "Castelão"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual clube capixaba já disputou a Série A do Campeonato Brasileiro?",
+    opcoes: ["Vitória-ES", "Rio Branco-ES", "Desportiva Ferroviária", "Linhares FC"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual é o município de origem do clube Real Noroeste Capixaba Futebol Clube?",
+    opcoes: ["São Mateus", "Colatina", "Água Doce do Norte", "Águia Branca"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual competição estadual define o representante do Espírito Santo na Copa do Brasil?",
+    opcoes: ["Copa ES", "Campeonato Capixaba", "Supercopa Capixaba", "Torneio Início"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual emissora costuma transmitir as finais do Campeonato Capixaba?",
+    opcoes: ["TV Gazeta", "TV Vitória", "TV Tribuna", "RedeTV! ES"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual clube capixaba é conhecido pelo apelido 'Brancão'? ",
+    opcoes: ["Rio Branco-ES", "Vitória-ES", "Serra FC", "Vilavelhense"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual dessas cidades **não** possui clube com participação recente em campeonatos da FES?",
+    opcoes: ["Linhares", "Serra", "Cachoeiro de Itapemirim", "Anchieta"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Em qual década o futebol capixaba viveu seu auge com clubes disputando torneios nacionais?",
+    opcoes: ["1970", "1980", "1990", "2000"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual competição reúne clubes campeões do Capixabão e da Copa ES?",
+    opcoes: ["Supercopa Capixaba", "Taça Espírito Santo", "Copa dos Campeões", "Troféu Capixaba"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Quem é o atual presidente da FES (gestão 2023–2027)?",
+    opcoes: ["Lucas Arruda", "Gustavo Vieira", "João Bosco", "José Carlos Bernabé"],
+    respostaCorreta: 1
+  }
+]
+[
+  {
+    pergunta: "Qual clube capixaba conquistou o Campeonato Capixaba de 2024?",
+    opcoes: ["Vitória-ES", "Real Noroeste", "Serra FC", "Rio Branco-ES"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual cidade sediou a decisão da Copa Espírito Santo de 2023?",
+    opcoes: ["Linhares", "Águia Branca", "Cariacica", "Serra"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual é o nome do torneio de base promovido pela FES para jovens de até 17 anos?",
+    opcoes: ["Campeonato Capixaba Sub-17", "Copa FES de Juniores", "Torneio Esperança", "Taça Capixaba Juvenil"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual clube tem o apelido de 'Tricolor Serrano'?",
+    opcoes: ["Desportiva Ferroviária", "Serra FC", "Vitória-ES", "Vilavelhense"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "O estádio Sumaré está localizado em qual cidade capixaba?",
+    opcoes: ["São Mateus", "Colatina", "Vitória", "Vila Velha"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual dessas competições estaduais garante vaga na Série D do Campeonato Brasileiro?",
+    opcoes: ["Supercopa Capixaba", "Campeonato Capixaba", "Copa ES", "Torneio Início"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual desses clubes foi fundado por funcionários da antiga Companhia Vale do Rio Doce?",
+    opcoes: ["Desportiva Ferroviária", "Rio Branco-ES", "Vitória-ES", "Vilavelhense"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual jogador capixaba se destacou nacionalmente jogando pelo Flamengo nos anos 1980?",
+    opcoes: ["Zico", "Adílio", "Bebeto", "Tita"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Quantas federações estaduais de futebol existem oficialmente filiadas à CBF, incluindo a FES?",
+    opcoes: ["26", "27", "28", "25"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual é o nome da competição promovida pela FES para clubes femininos?",
+    opcoes: ["Copa Espírito Santo Feminina", "Campeonato Capixaba Feminino", "Superliga Capixaba", "Taça das Estrelas"],
+    respostaCorreta: 1
+  }
+]
+[
+  {
+    pergunta: "Qual clube capixaba é conhecido como 'Alvianil de Bento Ferreira'?",
+    opcoes: ["Vitória-ES", "Rio Branco-ES", "Serra FC", "Vilavelhense"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Em que ano o Estádio Kléber Andrade foi reinaugurado após reforma completa?",
+    opcoes: ["2014", "2010", "2016", "2012"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual desses clubes conquistou a Copa Espírito Santo em 2022?",
+    opcoes: ["Nova Venécia", "Real Noroeste", "Desportiva Ferroviária", "Vitória-ES"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual é o principal objetivo da Supercopa Capixaba?",
+    opcoes: ["Decidir o acesso à Série D", "Unir os campeões do Capixabão e da Copa ES", "Selecionar atletas para a base da FES", "Revelar novos árbitros"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Em que cidade fica localizado o Estádio Engenheiro Araripe, casa da Desportiva Ferroviária?",
+    opcoes: ["Vila Velha", "Cariacica", "Vitória", "Serra"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual desses clubes já representou o Espírito Santo na Copa do Brasil?",
+    opcoes: ["Serra FC", "Real Noroeste", "Ambos", "Nenhum"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual dessas funções também faz parte das responsabilidades da FES?",
+    opcoes: ["Organizar campeonatos de basquete", "Gerir o futebol profissional e de base", "Fiscalizar clubes de fora do estado", "Administrar ginásios municipais"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Em que década foi criada a Taça Cidade de Vitória, torneio tradicional do futebol capixaba?",
+    opcoes: ["1960", "1970", "1980", "1990"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual desses clubes tem o apelido de 'Tigre da Barra'?",
+    opcoes: ["Linhares FC", "Vilavelhense", "Serra FC", "Nova Venécia"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual estádio foi usado como centro de treinamento durante a Copa do Mundo de 2014 no ES?",
+    opcoes: ["Kléber Andrade", "Araripe", "Sumaré", "Roberto Siqueira"],
+    respostaCorreta: 0
+  }
+]
+[
+  {
+    pergunta: "Qual é o nome do mascote oficial da Desportiva Ferroviária?",
+    opcoes: ["Leão Grená", "Águia Rubra", "Tigre Grená", "Pantera Capixaba"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual clube capixaba foi campeão da Série B do Campeonato Capixaba em 2023?",
+    opcoes: ["SC Brasil Capixaba", "Vilavelhense", "Linhares FC", "Pinheiros"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Em que cidade fica o Estádio Olímpio Perim, utilizado em competições da FES?",
+    opcoes: ["Venda Nova do Imigrante", "Colatina", "Afonso Cláudio", "São Mateus"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual competição organizada pela FES é voltada exclusivamente para categorias Sub-20?",
+    opcoes: ["Campeonato Capixaba Sub-20", "Copa Jovem Capixaba", "Taça de Base FES", "Copa Juniores do ES"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Em que ano o Real Noroeste conquistou seu primeiro título do Campeonato Capixaba?",
+    opcoes: ["2020", "2021", "2019", "2018"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual clube capixaba tem as cores preto e branco como principais?",
+    opcoes: ["Vitória-ES", "Rio Branco-ES", "Nova Venécia", "Serra FC"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual destes jogadores capixabas atuou profissionalmente no exterior?",
+    opcoes: ["Paulo Sérgio", "Adriano Louzada", "Leandrinho", "Rodrigo Cordeiro"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual competição estadual serve de preparação para o Campeonato Capixaba Série B?",
+    opcoes: ["Copa FES de Acesso", "Copa ES", "Torneio Início", "Taça Capixaba de Preparação"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual dessas cidades já recebeu jogos da Copa Espírito Santo?",
+    opcoes: ["Anchieta", "Aracruz", "Castelo", "Mucurici"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Quantos clubes geralmente participam da Série A do Campeonato Capixaba?",
+    opcoes: ["8", "10", "12", "16"],
+    respostaCorreta: 1
+  }
+]
+[
+  {
+    pergunta: "Qual é o apelido do estádio municipal de Linhares, utilizado em jogos oficiais do Espírito Santo?",
+    opcoes: ["Arena do Norte", "Estádio Glória", "Ninho do Dragão", "Estádio Joaquim Calmon"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual regra a FES aplica em caso de empate na final de uma competição estadual (quando não há jogo de volta)?",
+    opcoes: ["Prorrogação seguida de pênaltis", "Melhor campanha no campeonato", "Gol qualificado", "Sorteio entre os clubes"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual dessas iniciativas a FES costuma promover para arbitragem local?",
+    opcoes: ["Festival de goleiros", "Curso de formação e atualização para árbitros", "Campeonato de ex-jogadores", "Bolsa de estudo para coaches estrangeiros"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual é o principal critério para um clube capixaba ganhar vaga direta na Copa do Brasil pela FES?",
+    opcoes: ["Ter mais torcedores cadastrados", "Ter estádio próprio", "Ser campeão estadual", "Apresentar melhor projeto social"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual é o troféu simbólico entregue ao clube com a melhor campanha na fase de grupos do Capixabão (quando existe)?",
+    opcoes: ["Troféu Melhor Campanha", "Taça do Mérito", "Copa Fair Play", "Medalha de Honra ao Mérito"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual dessas ações faz parte das políticas de base apoiadas pela FES?",
+    opcoes: ["Pagamento de salários a jogadores profissionais", "Oficinas de formação para treinadores de base", "Construção de estádios internacionais", "Transmissão exclusiva por TV aberta"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual dessas agremiações já teve uma parceria para sociedade com clube de outro estado visando intercâmbio de atletas?",
+    opcoes: ["Vitória-ES", "Real Noroeste", "Linhares FC", "Rio Branco-ES"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual destes itens costuma constar no regulamento de competições da FES para punição disciplinar?",
+    opcoes: ["Multa por empate", "Suspensão automática por cartão vermelho direto", "Troca de pontos entre clubes", "Liberação de torcedores rivais no mesmo setor"], 
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual modalidade a FES já apoiou como projeto social para inclusão pelo futebol?",
+    opcoes: ["Futebol para pessoas com deficiência (paradesporto)", "Corrida de rua amadora", "Basquete juvenil", "Natação comunitária"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual desses números aproxima-se da capacidade do Estádio Kleber Andrade após sua maior reforma?",
+    opcoes: ["12.000", "18.000", "24.000", "22.000"],
+    respostaCorreta: 3
+  }
+]
+[
+  {
+    pergunta: "Qual é o nome do clássico regional entre Rio Branco-ES e Desportiva Ferroviária?",
+    opcoes: ["Clássico Capixaba", "Clássico dos Campeões", "Clássico do Oceano", "Clássico dos Gigantes"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual dessas iniciativas costuma atrair patrocinadores estaduais para o futebol capixaba?",
+    opcoes: ["Projetos sociais e de base", "Apenas transmissão por rádio", "Venda de camisas antigas", "Gincanas de torcedores"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual é o principal critério técnico usado pela FES para aprovar um estádio para jogos profissionais?",
+    opcoes: ["Capacidade mínima de público", "Condições de segurança e vestiários adequados", "Proximidade da capital", "Possuir iluminação colorida no campo"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Que tipo de premiação a FES costuma entregar ao clube com melhor comportamento disciplinar na competição?",
+    opcoes: ["Bônus financeiro", "Troféu Fair Play", "Vaga extra em torneio amistoso", "Isenção de taxa no ano seguinte"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual dessas modalidades de futebol a FES apoia em projetos estaduais de formação?",
+    opcoes: ["Futsal escolar", "Beach soccer regional", "Futebol feminino de base", "Todas as anteriores"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual é o nome dado ao programa de arbitragem que promove reciclagem anual de árbitros no estado?",
+    opcoes: ["Projeto Árbitro Capixaba", "FormarApito ES", "Curso de Atualização de Arbitragem", "Apito Certo"], 
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual destas ações a FES pode aplicar contra um clube que não regularizar documentação?",
+    opcoes: ["Multa e suspensão de inscrição", "Apenas advertência verbal", "Retirada do título anterior", "Pagamentos obrigatórios à torcida"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual é a principal finalidade da Copa Espírito Santo (Copa ES)?",
+    opcoes: ["Definir o campeão estadual absoluto", "Selecionar arbitragem internacional", "Conceder vagas em competições nacionais e revelar clubes"], 
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual desses prêmios individuais costuma existir no Campeonato Capixaba ao final da edição?",
+    opcoes: ["Artilheiro do campeonato", "Melhor técnico do torneio", "Defesa menos vazada", "Todas as anteriores"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual ação a FES realiza para incentivar a presença de público nos jogos menores?",
+    opcoes: ["Campanhas escolares e ingressos promocionais", "Exigir público mínimo por lei", "Proibir crianças nos jogos", "Só transmitir jogos por pay-per-view"],
+    respostaCorreta: 0
+  }
+]
+[
+  {
+    pergunta: "Qual é o nome do principal prêmio individual entregue ao melhor jogador do Campeonato Capixaba?",
+    opcoes: ["Bola de Ouro Capixaba", "Craque do Capixabão", "Prêmio Melhor Jogador", "Chuteira de Ouro"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual dessas ações costuma aumentar a receita dos clubes capixabas além da venda de ingressos?",
+    opcoes: ["Doações municipais", "Multas aplicadas pela FES", "Venda de atletas para clubes maiores", "Proibição de merchandising"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual é o principal objetivo das escolinhas ligadas a clubes do Espírito Santo?",
+    opcoes: ["Recolher impostos locais", "Formar árbitros profissionais", "Revelar e formar jovens atletas", "Organizar torneios internacionais"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual desses formatos de competição a FES costuma usar para decidir um campeão em torneios curtos?",
+    opcoes: ["Grupo único com todos se enfrentando", "Chave dupla com ida e volta e final", "Eliminação simples direto", "Série de pontos corridos em dois turnos"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Que tipo de apoio financeiro a FES pode oferecer a clubes amadores em projetos sociais?",
+    opcoes: ["Empréstimos a juros altos", "Patrocínio integral da folha salarial", "Doações para reforma de quadras"], 
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual é a principal finalidade das competições femininas organizadas pela FES?",
+    opcoes: ["Promover a modalidade e dar acesso a torneios nacionais", "Gerar renda exclusiva para árbitras", "Incentivar importação de jogadoras", "Reunir ex-jogadoras apenas para amistosos"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual desses perfis costuma ser requisito para um clube se inscrever na Série A do Campeonato Capixaba?",
+    opcoes: ["Ter torcida mínima de 10 mil pagantes por jogo", "Estar em dia com a documentação e certidões", "Ser fundado há mais de 50 anos", "Possuir centro de treinamento internacional"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual é o principal canal usado atualmente para a FES divulgar tabelas e comunicados oficiais?",
+    opcoes: ["Jornais impressos locais", "Rádio comunitária", "Site e redes sociais oficiais", "Anúncios em ônibus urbanos"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "O que costuma determinar o rebaixamento de um clube na competição estadual?",
+    opcoes: ["Sorteio entre os últimos colocados", "Número de cartões recebidos", "Posição na tabela ao final da fase regular", "Quantidade de sócios-torcedores cadastrados"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual dessas iniciativas veteranas já foi lançada por clubes capixabas para aproximar a base da torcida?",
+    opcoes: ["Programas de sócio-torcedor", "Venda exclusiva por catálogo", "Proibição de bandeiras", "Exclusão de menores de idade"],
+    respostaCorreta: 0
+  }
+]
+[
+  {
+    pergunta: "Qual clube costuma aparecer com mais frequência nas finais do Campeonato Capixaba nas últimas duas décadas?",
+    opcoes: ["Rio Branco-ES", "Serra FC", "Vitória-ES", "Real Noroeste"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual documento oficial define o regulamento das competições organizadas pela FES?",
+    opcoes: ["Calendário anual", "Regulamento Geral de Competições", "Comunicado de imprensa", "Boletim Financeiro"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual é a principal vantagem para um clube capixaba vencer a Copa Espírito Santo (Copa ES)?",
+    opcoes: ["Isenção de taxas estaduais", "Convite para amistosos internacionais", "Vaga em competições nacionais (ex.: Copa do Brasil)", "Substituição automática do presidente da FES"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual destes temas costuma ser alvo de projetos da FES para desenvolvimento social?",
+    opcoes: ["Construção de rodovias", "Cursos de administração pública", "Projetos de inclusão esportiva (base e paradesporto)", "Importação de jogadores estrangeiros"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual setor da FES é responsável por organizar e capacitar árbitros no estado?",
+    opcoes: ["Departamento de Arbitragem", "Departamento Médico", "Departamento de Marketing", "Comissão de Estatística"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual desses elementos é exigido para um estádio ser homologado pela FES para jogos profissionais?",
+    opcoes: ["Bancos de reservas cobertos", "Iluminação adequada para jogos noturnos", "Vestiários amplos e conformes", "Todas as anteriores"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual desses públicos-alvo costuma ser prioridade nas ações de base apoiadas pela FES?",
+    opcoes: ["Apenas atletas profissionais", "Treinadores estrangeiros", "Categorias de base (Sub-13 a Sub-20)", "Sócios-aposentados"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual é uma medida habitual da FES para incentivar público em jogos de menor porte?",
+    opcoes: ["Proibir menores de idade", "Aumentar preço dos ingressos", "Campanhas em escolas e ingressos promocionais", "Restringir circulação nas redes sociais"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Em competições oficiais da FES, qual é o procedimento mais comum quando um clube não apresenta documentação regular?",
+    opcoes: ["Conceder vitória automática ao adversário", "Transferir pontuação para outro clube", "Aplicar multa e suspender inscrição até regularização", "Premiar o clube com isenção futura"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual dessas ações a FES frequentemente realiza para promover o futebol feminino no estado?",
+    opcoes: ["Negar inscrições de clubes femininos", "Criar torneios e calendários específicos", "Exigir limite de público apenas para jogos femininos", "Proibir transmissões online"],
+    respostaCorreta: 3
+  }
+]

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Minecraft — versão integral (reescrita e referenciada)</title>
+  <style>
+    :root{
+      --accent:#00a651;
+      --dark:#222;
+      --muted:#666;
+      --bg:#fbfbfb;
+      --card:#fff;
+      --maxw:980px;
+    }
+    html,body{height:100%;}
+    body{
+      margin:0;
+      font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background:var(--bg);
+      color:var(--dark);
+      line-height:1.55;
+      -webkit-font-smoothing:antialiased;
+    }
+    .wrap{max-width:var(--maxw);margin:28px auto;padding:22px;}
+    header{
+      background:linear-gradient(90deg,#08121a14, #ffffff00);
+      padding:22px;border-radius:12px;
+      display:flex;gap:18px;align-items:center;
+      border-left:6px solid var(--accent);
+      box-shadow:0 6px 18px rgba(10,10,10,0.04);
+      background-color:var(--card);
+    }
+    header h1{margin:0;font-size:1.6rem;}
+    header p{margin:0;color:var(--muted);font-size:0.95rem;}
+    nav.toc{
+      margin:18px 0;padding:14px;border-radius:8px;background:var(--card);
+      display:flex;flex-wrap:wrap;gap:8px;box-shadow:0 3px 10px rgba(10,10,10,0.03);
+    }
+    nav.toc a{
+      padding:8px 12px;border-radius:6px;text-decoration:none;color:var(--accent);
+      background:linear-gradient(180deg, #f5fff5, transparent);
+      font-weight:600;font-size:0.95rem;
+    }
+    article section{margin:28px 0;padding:18px;border-radius:8px;background:var(--card);box-shadow:0 6px 18px rgba(10,10,10,0.03);}
+    h2{margin-top:0;color:var(--accent);}
+    h3{margin-bottom:6px;color:#0b6b3a;}
+    p.lead{color:var(--muted);margin-top:6px;}
+    ul{margin:10px 0 10px 20px;}
+    .meta{font-size:0.9rem;color:var(--muted);}
+    footer{margin-top:30px;padding:18px;border-radius:8px;background:linear-gradient(180deg,#fff,#f5f5f5);text-align:center;color:var(--muted);}
+    .refs li{margin:6px 0;}
+    .small{font-size:0.9rem;color:var(--muted);}
+    pre.note{white-space:pre-wrap;background:#0b1012;color:#fff;padding:12px;border-radius:8px;overflow:auto;}
+    @media (max-width:640px){
+      header{flex-direction:column;align-items:flex-start;}
+      nav.toc{justify-content:flex-start;}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Minecraft </h1>
+        <p class="meta">Documento reescrito do material base, com links internos e referências para atribuição.</p>
+      </div>
+    </header>
+
+    <nav class="toc" aria-label="Índice">
+      <a href="#inicio">Início</a>
+      <a href="#jogabilidade">Jogabilidade</a>
+      <a href="#mundo">Mundo e biomas</a>
+      <a href="#modos">Modos de jogo</a>
+      <a href="#multijogador">Multijogador e Realms</a>
+      <a href="#desenvolvimento">Desenvolvimento</a>
+      <a href="#musica">Música</a>
+      <a href="#modificacoes">Modificações</a>
+      <a href="#qcraft">Qcraft</a>
+      <a href="#lancamento">Lançamentos e versões</a>
+      <a href="#consoles">Versões para consoles</a>
+      <a href="#raspberry">Raspberry Pi</a>
+      <a href="#china">Minecraft China</a>
+      <a href="#vr">Realidade virtual</a>
+      <a href="#recepcao">Recepção crítica</a>
+      <a href="#vendas">Vendas</a>
+      <a href="#premios">Prêmios</a>
+      <a href="#legado">Legado e impacto</a>
+      <a href="#cultura">Impacto cultural</a>
+      <a href="#filmes">Filmes e mídia</a>
+      <a href="#merch">Mercadorias</a>
+      <a href="#minecon">MineCon</a>
+      <a href="#referencias">Referências</a>
+    </nav>
+
+    <article>
+
+      <section id="inicio" aria-labelledby="inicio-heading">
+        <h2 id="inicio-heading">Início</h2>
+        <p class="lead">
+          <strong>Minecraft</strong> é um jogo eletrônico de mundo aberto que mistura construção, exploração e sobrevivência.
+          Desenvolvido originalmente por Markus "Notch" Persson, o projeto cresceu a partir de protótipos e versões experimentais até
+          alcançar um lançamento público em 2009 (alpha) e uma edição completa em 2011. Desde então tornou-se uma das franquias
+          mais populares e influentes dos videogames modernos.
+        </p>
+        <p>
+          A proposta central do título é simples: um mundo tridimensional composto por unidades cúbicas (blocos) que podem ser
+          coletadas, transformadas e rearranjadas para criar tudo — desde abrigos simples até máquinas complexas. O jogo foi
+          mantido e expandido por uma equipe (Mojang Studios) e, posteriormente, incorporado ao acervo da Microsoft em 2014.
+        </p>
+      </section>
+
+      <section id="jogabilidade" aria-labelledby="jogabilidade-heading">
+        <h2 id="jogabilidade-heading">Jogabilidade (visão geral)</h2>
+        <p class="lead">Minecraft entrega uma experiência aberta: não existe um “caminho obrigatório”, mas há sistemas que orientam a progressão.</p>
+
+        <h3>Fundamentos</h3>
+        <p>
+          O jogador explora um ambiente gerado por algoritmo e recolhe recursos (madeira, pedra, minérios etc.) para criar ferramentas,
+          construir estruturas e preparar-se contra perigos. A mecânica principal é “colocar e remover blocos” — uma operação
+          que torna possível construir do zero qualquer forma ou mecanismo permitido pelas regras do jogo.
+        </p>
+
+        <h3>Elementos técnicos notáveis</h3>
+        <ul>
+          <li>O motor de jogo organiza o mundo em “chunks” que são gerados conforme a exploração, permitindo um terreno virtualmente vasto.</li>
+          <li>A física é propositalmente simplificada (por exemplo, líquidos seguem regras próprias), o que facilita construção e experimentalismo.</li>
+          <li>Sistemas como o <em>redstone</em> permitem criar circuitos e mecanismos que funcionam como eletrônica básica no jogo.</li>
+        </ul>
+      </section>
+
+      <section id="mundo" aria-labelledby="mundo-heading">
+        <h2 id="mundo-heading">O mundo: biomas, limites e criaturas</h2>
+        <p class="lead">O ambiente é dividido em biomas e apresenta variações de terreno, vegetação, clima e estruturas geradas.</p>
+
+        <p>
+          Os biomas incluem desertos, florestas, montanhas, tundras e selvas — cada um com recursos e desafios próprios. O mundo tem um
+          ciclo de dia e noite (20 minutos por ciclo real) e limitações técnicas em distâncias extremas que afetam a geração e a estabilidade.
+        </p>
+
+        <h3>Mobs (criaturas)</h3>
+        <p>
+          Existem criaturas passivas (animais para alimentação e recursos), neutras e hostis (que atacam o jogador em condições específicas).
+          Algumas criaturas têm comportamentos especiais — como o <em>creeper</em> (explosivo) ou o <em>enderman</em> (teletransporte) — e
+          o jogo inclui chefes opcionais que servem como metas de fim de jogo.
+        </p>
+      </section>
+
+      <section id="modos" aria-labelledby="modos-heading">
+        <h2 id="modos-heading">Modos de jogo</h2>
+
+        <h3>Sobrevivência</h3>
+        <p>
+          No modo sobrevivência, o jogador precisa recolher recursos, gerenciar vida e fome, e proteger-se de perigos. É o modo que introduz
+          as mecânicas básicas de progressão (fabricação, mineração, cultivo e combate).
+        </p>
+
+        <h3>Criativo</h3>
+        <p>
+          Modo onde todos os recursos estão disponíveis, dano e fome são desativados e o jogador pode voar — ideal para construir sem limitações.
+        </p>
+
+        <h3>Aventura, Hardcore e Espectador</h3>
+        <p>
+          O modo aventura é pensado para mapas customizados com regras específicas; o hardcore é uma variante com morte permanente; e o espectador
+          permite voar e observar sem interagir diretamente com o mundo.
+        </p>
+      </section>
+
+      <section id="multijogador" aria-labelledby="multijogador-heading">
+        <h2 id="multijogador-heading">Multijogador e Minecraft Realms</h2>
+
+        <p class="lead">Minecraft pode ser jogado com outras pessoas em servidores, LAN, tela dividida e serviços dedicados.</p>
+
+        <h3>Servidores e comunidade</h3>
+        <p>
+          A comunidade opera milhares de servidores, muitos com regras, modos e plugins próprios. Operadores têm ferramentas para gerenciar
+          mundos, moderar jogadores e adicionar experiências customizadas. Servidores populares atraem milhões de visitas e criam subculturas
+          próprias.
+        </p>
+
+        <h3>Realms</h3>
+        <p>
+          Realms é um serviço oficial de hospedagem que oferece uma forma simples e segura de jogar em grupo por assinatura, com suporte a
+          mapas e pacotes autorizados.
+        </p>
+      </section>
+
+      <section id="desenvolvimento" aria-labelledby="desenvolvimento-heading">
+        <h2 id="desenvolvimento-heading">Desenvolvimento e história</h2>
+
+        <p class="lead">Das experiências de protótipo à empresa: a trajetória por trás do jogo.</p>
+
+        <p>
+          Markus Persson começou o projeto inspirado por jogos experimentais e ferramentas de construção. Lançamentos incrementais (alpha, beta)
+          permitiram que a comunidade participasse do crescimento do jogo. Com o aumento das vendas, Persson fundou a Mojang e contratou uma equipe
+          para manter e expandir o título. Jens Bergensten assumiu o design principal após Persson sair da liderança criativa.
+        </p>
+
+        <h3>Aquisição pela Microsoft</h3>
+        <p>
+          Em 2014 a Microsoft adquiriu a Mojang. Desde então, o desenvolvimento continuou sob outra estrutura corporativa, com equipes diversas
+          coordenando atualizações, ports e iniciativas educacionais.
+        </p>
+
+        <h3>Atualizações contínuas</h3>
+        <p>
+          O jogo recebeu atualizações de grande escala ao longo dos anos — adicionando biomas, criaturas, mecânicas e melhorias técnicas — mantendo
+          a base de jogadores engajada e atraindo novos públicos.
+        </p>
+      </section>
+
+      <section id="musica" aria-labelledby="musica-heading">
+        <h2 id="musica-heading">Trilha sonora e identidade sonora</h2>
+
+        <p class="lead">A ambientação musical é parte central da experiência emocional do jogo.</p>
+
+        <p>
+          A trilha, composta majoritariamente por Daniel Rosenfeld (conhecido como C418), é caracterizada por peças instrumentais minimalistas
+          que reforçam a sensação de espaço e contemplação. As composições se tornaram populares fora do jogo, lançadas em álbuns e reconhecidas
+          por críticos e fãs.
+        </p>
+      </section>
+
+      <section id="modificacoes" aria-labelledby="modificacoes-heading">
+        <h2 id="modificacoes-heading">Modificações e conteúdo criado pela comunidade</h2>
+
+        <p class="lead">Mods, pacotes de textura, mapas e servidores são grandes responsáveis pela longevidade do jogo.</p>
+
+        <p>
+          A comunidade produziu milhares de modificações que alteram desde visual até mecânicas inteiras. Pacotes de recursos e marketplaces oficiais
+          facilitam a distribuição de conteúdos criados por terceiros, permitindo que criadores monetizem e mantenham ecossistemas ativos.
+        </p>
+      </section>
+
+      <section id="qcraft" aria-labelledby="qcraft-heading">
+        <h2 id="qcraft-heading">Qcraft — ensino de conceitos quânticos</h2>
+
+        <p class="lead">Um exemplo de uso educacional do jogo foi a criação de um mod para explicar fenômenos da física quântica.</p>
+
+        <p>
+          Projetos como o Qcraft usaram a mecânica de blocos para representar ideias como sobreposição e entrelaçamento, criando uma ponte
+          entre conceitos abstratos e experiências interativas para estudantes.
+        </p>
+      </section>
+
+      <section id="lancamento" aria-labelledby="lancamento-heading">
+        <h2 id="lancamento-heading">Lançamentos e versões (visão detalhada)</h2>
+
+        <p class="lead">Minecraft existe em múltiplas edições adaptadas para plataformas e públicos distintos.</p>
+
+        <h3>Versões para computador</h3>
+        <p>
+          A edição original (atualmente conhecida como Java Edition) roda em Windows, macOS e Linux. Existem também versões históricas
+          e experimentais (por exemplo, Minecraft Classic e versões compactas como "4K"), além de edições com foco educacional.
+        </p>
+
+        <h3>Pocket / Bedrock</h3>
+        <p>
+          A família Bedrock originou-se como Pocket Edition para dispositivos móveis, evoluiu para um motor em C++ e foi portada para
+          consoles e dispositivos de TV. A unificação técnica permitiu cross-play entre plataformas que usam o mesmo motor.
+        </p>
+      </section>
+
+      <section id="consoles" aria-labelledby="consoles-heading">
+        <h2 id="consoles-heading">Versões para consoles</h2>
+
+        <p>
+          Desde edições para Xbox 360, PlayStation e Wii U até ports para Nintendo Switch, o jogo foi adaptado para aproveitar as características
+          de cada plataforma (controles, tela dividida, performance). Algumas edições tiveram conteúdos específicos ou limitações históricas,
+          enquanto outras seguiram o ritmo das atualizações do PC.
+        </p>
+      </section>
+
+      <section id="raspberry" aria-labelledby="raspberry-heading">
+        <h2 id="raspberry-heading">Raspberry Pi</h2>
+
+        <p>
+          Uma edição destinada ao Raspberry Pi foi lançada como ferramenta educacional e experimental, oferecendo interfaces de script
+          que ajudam iniciantes a interagir com o mundo do jogo programaticamente.
+        </p>
+      </section>
+
+      <section id="china" aria-labelledby="china-heading">
+        <h2 id="china-heading">Minecraft China</h2>
+
+        <p>
+          Para o mercado chinês, houve versões licenciadas e adaptadas por parceiros locais, com distribuição e modelos diferentes das versões
+          internacionais. Algumas destas versões tiveram grande adoção regional.
+        </p>
+      </section>
+
+      <section id="vr" aria-labelledby="vr-heading">
+        <h2 id="vr-heading">Realidade virtual</h2>
+
+        <p>
+          Minecraft tem suporte para realidade virtual em algumas edições/ports oficiais e também experimentos da comunidade; isso permitiu
+          experiências imersivas que alteram a perspectiva e o modo como os jogadores constroem e exploram.
+        </p>
+      </section>
+
+      <section id="recepcao" aria-labelledby="recepcao-heading">
+        <h2 id="recepcao-heading">Recepção crítica</h2>
+
+        <p class="lead">Críticos elogiaram a liberdade criativa, a rejogabilidade e a capacidade do jogo de surpreender jogadores de todas as idades.</p>
+
+        <p>
+          Após o lançamento completo, a maioria das avaliações foi extremamente positiva, citando inovação, design aberto e potencial educativo.
+          Algumas críticas apontaram problemas de desempenho e a curva inicial de aprendizado para novos jogadores.
+        </p>
+
+        <h3>Relançamentos e ports</h3>
+        <p>
+          As versões para consoles e dispositivos portáteis receberam avaliações variadas dependendo da fidelidade ao original, desempenho
+          e recursos ausentes ou adaptados.
+        </p>
+      </section>
+
+      <section id="vendas" aria-labelledby="vendas-heading">
+        <h2 id="vendas-heading">Vendas e público</h2>
+
+        <p>
+          Ao longo dos anos, o jogo alcançou cifras de vendas e uma base de jogadores ativos que o colocam entre os títulos mais vendidos
+          e jogados da história. Sua combinação de apelo familiar, comunidade criadora e presença em múltiplas plataformas explica esse alcance.
+        </p>
+      </section>
+
+      <section id="premios" aria-labelledby="premios-heading">
+        <h2 id="premios-heading">Prêmios e indicações</h2>
+
+        <p>
+          Minecraft acumulou diversos reconhecimentos na indústria (incluindo prêmios de inovação, jogos independentes e votação de público),
+          além de aparições em listas de melhores jogos por publicações especializadas.
+        </p>
+      </section>
+
+      <section id="legado" aria-labelledby="legado-heading">
+        <h2 id="legado-heading">Legado</h2>
+
+        <p class="lead">O impacto de Minecraft extrapola o mundo dos games: sua influência é visível na educação, IA criativa e na cultura digital.</p>
+
+        <p>
+          Elementos de design — como construção baseada em blocos e geração procedural — influenciaram um grande número de jogos subsequentes.
+          Além disso, a presença do jogo em ambientes educacionais e em plataformas de criação digital aumentou sua importância cultural.
+        </p>
+      </section>
+
+      <section id="cultura" aria-labelledby="cultura-heading">
+        <h2 id="cultura-heading">Impacto cultural</h2>
+
+        <p>
+          Minecraft alimentou canais de vídeo, comunidades de criadores e eventos. Vídeos tutoriais, séries de construção, speedruns e
+          conteúdo humorístico popularizaram conceitos do jogo para públicos massivos.
+        </p>
+
+        <p>
+          Ícones e lendas da comunidade (como “Herobrine”) exemplificam como narrativas geradas por jogadores podem criar mitos e memórias
+          compartilhadas.
+        </p>
+      </section>
+
+      <section id="filmes" aria-labelledby="filmes-heading">
+        <h2 id="filmes-heading">Filmes e adaptações</h2>
+
+        <p>
+          O universo de Minecraft gerou adaptações e projetos multimídia — de documentários sobre sua criação a tentativas de longa-metragem —
+          resultando em diferentes propostas para levar o mundo em blocos para outras mídias.
+        </p>
+      </section>
+
+      <section id="merch" aria-labelledby="merch-heading">
+        <h2 id="merch-heading">Mercadorias</h2>
+
+        <p>
+          A marca expandiu-se para brinquedos, roupas, livros e parcerias (por exemplo, conjuntos de LEGO), criando uma linha de produtos
+          que apoia a comunidade e amplia o alcance da franquia.
+        </p>
+      </section>
+
+      <section id="minecon" aria-labelledby="minecon-heading">
+        <h2 id="minecon-heading">MineCon</h2>
+
+        <p>
+          A convenção oficial dedicada ao jogo reuniu desenvolvedores, criadores de conteúdo e fãs em encontros presenciais e transmissões,
+          oferecendo painéis, competições e anúncios de novidades.
+        </p>
+      </section>
+
+      <section id="referencias" aria-labelledby="referencias-heading">
+        <h2 id="referencias-heading">Referências e atribuições</h2>
+
+        <p class="small">
+          Esta versão foi escrita a partir do material que você forneceu e adaptada para evitar reprodução direta do texto-fonte.
+          Para rastreabilidade, o documento de origem carregado por você está listado abaixo.
+        </p>
+
+        <ul class="refs">
+          <li>Documento-fonte: arquivo enviado — Início.docx. Fonte consultada e adaptada. :contentReference[oaicite:0]{index=0}</li>
+          <li>Informações históricas, dados de lançamento e notas técnicas foram reorganizadas e reescritas a partir do material do arquivo. :contentReference[oaicite:1]{index=1}</li>
+          <li>Detalhes sobre atualizações, Realms, e edições foram extraídos e adaptados do arquivo original. :contentReference[oaicite:2]{index=2}</li>
+          <li>Seções sobre a trilha sonora e contribuições de C418 adaptadas do conteúdo de referência no arquivo. :contentReference[oaicite:3]{index=3}</li>
+          <li>Informações sobre MineCon, vendas e recepção crítica foram baseadas no material do arquivo. :contentReference[oaicite:4]{index=4}</li>
+        </ul>
+
+        <p class="small">
+          Observação sobre licenciamento: o documento original contém material sob licença Creative Commons (CC BY-SA). Esta página
+          apresenta uma redação original e referências para garantir atribuição adequada e reduzir risco de violação de direitos autorais.
+        </p>
+      </section>
+
+    </article>
+
+    <footer>
+      <div class="small">Documento reescrito — produzido automaticamente por assistente. Conteúdo adaptado do arquivo fornecido. :contentReference[oaicite:5]{index=5}</div>
+    </footer>
+  </div>
+</body>
+</html>

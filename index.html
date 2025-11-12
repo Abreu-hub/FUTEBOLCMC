@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FUTEBOL CMC - Conteúdo Principal</title>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195"
+     crossorigin="anonymous"></script>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+
+<!-- Google Analytics será carregado condicionalmente -->
+<script>
+function loadGoogleAnalytics() {
+    if (!document.getElementById('gtag')) {
+        const script = document.createElement('script');
+        script.id = 'gtag';
+        script.async = true;
+        script.src = "https://www.googletagmanager.com/gtag/js?id=G-DEKRSE4D4M";
+        document.head.appendChild(script);
+        script.onload = function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', 'G-DEKRSE4D4M');
+        }
+    }
+}
+</script>
+
+<style>
+/* ================== SEUS ESTILOS EXISTENTES ================== */
+:root {
+--cor-principal: #1f50a8;
+--cor-secundaria: #ff5722;
+--cor-fundo: #f0f0f5;
+--cor-texto-escuro: #333;
+--cor-texto-claro: #fff;
+--cor-card-bg: #fff;
+--cor-secao-bg: #fdfdff;
+--sombra-suave: 0 4px 12px rgba(0, 0, 0, 0.08);
+--sombra-dura: 0 2px 8px rgba(0, 0, 0, 0.2);
+--transicao-rapida: 0.2s ease;
+}
+
+/* ------------------ CORPO ------------------ */
+body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background-color: var(--cor-fundo); color: var(--cor-texto-escuro); min-height: 100vh; display: flex; flex-direction: column; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; width: 100%; }
+.header { background-color: var(--cor-principal); color: var(--cor-texto-claro); padding: 20px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+.header h1 { margin: 0; font-size: 1.8em; font-weight: 700; }
+.header nav a { color: var(--cor-texto-claro); text-decoration: none; margin-left: 20px; font-weight: 500; transition: color var(--transicao-rapida); }
+.header nav a:hover { color: var(--cor-secundaria); }
+.main-content { padding: 40px 0; flex-grow: 1; }
+.main-layout { display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start; }
+.quizzes-section { flex: 0 0 300px; display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 20px; padding-bottom: 20px; }
+.videos-coluna { flex: 1; min-width: 300px; }
+.central-title { font-family: 'Roboto Slab', serif; text-align: center; color: var(--cor-principal); margin-bottom: 30px; font-size: 2.5em; text-transform: uppercase; }
+.quiz-card { background: var(--cor-card-bg); border: 1px solid rgba(0,0,0,0.05); border-radius: 8px; padding: 10px; text-align: center; box-shadow: var(--sombra-suave); transition: transform var(--transicao-rapida); }
+.quiz-card:hover { transform: translateY(-5px); box-shadow: 0 8px 16px rgba(0,0,0,0.15); }
+.quiz-card p { margin: 0 0 10px 0; font-size: 1em; font-weight: 700; color: var(--cor-secundaria); }
+.quiz-card img { width: 100%; height: 90px; object-fit: cover; border-radius: 4px; display: block; }
+.section { background: var(--cor-secao-bg); border-radius: 10px; padding: 20px; margin-bottom: 25px; box-shadow: var(--sombra-suave); }
+.section h2 { font-family: 'Roboto Slab', serif; font-size: 1.5em; margin: 0 0 15px; color: var(--cor-principal); border-bottom: 2px solid var(--cor-secundaria); padding-bottom: 5px; display: flex; align-items: center; gap: 12px; justify-content: flex-start; }
+.count-badge { background: var(--cor-secundaria); color: var(--cor-texto-claro); padding: 4px 10px; border-radius: 50px; font-size: 0.9em; font-weight: 700; }
+.videos-container { display: flex; flex-wrap: wrap; gap: 15px; justify-content: flex-start; }
+.video-card { width: 200px; background: var(--cor-card-bg); border-radius: 8px; overflow: hidden; box-shadow: var(--sombra-dura); cursor: pointer; transition: transform var(--transicao-rapida); text-align:center; }
+.video-card img { width:100%; height:120px; object-fit:cover; }
+.video-card:hover { transform: translateY(-4px); }
+.small-note { font-size: 0.9em; opacity: 0.8; text-align: center; margin-top: 8px; color: var(--cor-texto-escuro); }
+.action-buttons { display: flex; justify-content: center; gap: 30px; margin: 40px 0 50px 0; width: 100%; }
+.action-buttons button { background-color: var(--cor-secundaria); color: var(--cor-texto-claro); border: none; padding: 15px 30px; border-radius: 50px; font-size: 1.2em; font-weight: 600; cursor: pointer; transition: background-color 0.3s, transform 0.1s; box-shadow: 0 4px 10px rgba(255,87,34,0.4); text-transform: uppercase; }
+.action-buttons button:hover { background-color: #e64a19; transform: translateY(-2px); }
+.footer { background-color: var(--cor-texto-escuro); color: #ccc; padding: 40px 20px; margin-top: auto; }
+.footer-content { display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 1200px; margin: 0 auto; }
+.footer-section { flex-basis: 250px; margin-bottom: 20px; }
+.footer-section h4 { color: var(--cor-secundaria); border-bottom: 2px solid var(--cor-secundaria); padding-bottom: 5px; margin-bottom: 15px; }
+.footer-section ul { list-style: none; padding: 0; }
+.footer-section a { color: #ccc; text-decoration: none; line-height: 1.8; transition: color 0.3s; }
+.footer-section a:hover { color: var(--cor-principal); }
+.footer-bottom { text-align: center; padding-top: 20px; margin-top: 20px; border-top: 1px solid #444; font-size: 0.9em; }
+.social-link { color: var(--cor-secundaria) !important; margin-right: 10px; }
+@media (max-width: 992px) { .main-layout { flex-direction: column; } .quizzes-section { flex: auto; width: 100%; grid-template-columns: repeat(auto-fit, minmax(150px,1fr)); } .videos-coluna { width: 100%; } .videos-container { justify-content: space-around; } .video-card { width: 48%; } }
+@media (max-width: 768px) { .header { flex-direction: column; padding: 15px 20px; text-align:center; } .header nav { margin-top:10px; } .header nav a { margin:0 10px; } .action-buttons { flex-direction: column; gap:15px; } .footer-content { justify-content: space-around; } .footer-section { flex-basis: 45%; } }
+@media (max-width: 500px) { .video-card { width: 100%; } .footer-section { flex-basis:100%; text-align:center; } .quizzes-section { grid-template-columns: 1fr; } }
+
+/* ================== Banner e Modal de Cookies ================== */
+#cookie-banner { position: fixed; bottom:0; left:0; width:100%; background-color: rgba(0,0,0,0.9); color:#fff; text-align:center; padding:15px 10px; font-size:14px; z-index:9999; display:none; }
+#cookie-banner a { color:#ff9800; text-decoration: underline; margin:0 5px; }
+#cookie-banner button { background-color:#ff9800; color:#fff; border:none; padding:8px 18px; border-radius:4px; margin-top:8px; cursor:pointer; font-weight:bold; margin:0 5px; }
+#cookie-modal { position: fixed; top:0; left:0; width:100%; height:100%; background-color: rgba(0,0,0,0.8); display:none; align-items:center; justify-content:center; z-index:10000; }
+#cookie-modal .modal-content { background-color:#fff; color:#333; padding:20px; border-radius:10px; max-width:400px; width:90%; text-align:left; }
+#cookie-modal h3 { margin-top:0; color: var(--cor-principal); }
+#cookie-modal label { display:block; margin:10px 0; font-weight:500; }
+#cookie-modal button { margin-top:15px; width:100%; }
+</style>
+</head>
+<body>
+
+<header class="header">
+<div class="container" style="display:flex; justify-content:space-between; align-items:center; padding: 0;">
+<h1>FUTEBOL CMC </h1>
+<nav>
+<a class='nav-link' href='/'>Início</a>
+<a class='nav-link' href='/faleconosco'>Fale Conosco</a>
+<a class='nav-link' href='/resumo'>Historia do Futebol</a>
+<a class='nav-link' href='/downloads'>Downloads</a>
+</nav>
+</div>
+</header>
+
+<main class="main-content">
+  <div class="container">
+    <h2 class="central-title">QUIZZES, VÍDEOS! ( Vamos ver se vc manja de futebol)</h2>
+
+    <!-- LAYOUT FLEX TRÊS COLUNAS -->
+    <div class="main-layout" style="display:flex; gap:30px; align-items:flex-start; flex-wrap:wrap;">
+
+      <!-- COLUNA ESQUERDA: QUIZZES -->
+      <section class="quizzes-section" style="flex:0 0 200px; display:flex; flex-direction:column; gap:15px; justify-content:flex-start;">
+        <div class="quiz-card"><p>Quiz 01 - FIFA </p><a href='/index1'><img src="fifa.png" alt="Miniatura do quiz 1"></a></div>
+        <div class="quiz-card"><p>Quiz 02 - CONMEBOL</p><a href='/index2'><img src="CONMEBOL.PNG" alt="Miniatura do quiz 2"></a></div>
+        <div class="quiz-card"><p>Quiz 03 - CBF</p><a href='/index3'><img src="CBF.PNG" alt="Miniatura do quiz 3"></a></div>
+        
+  
+<h2 style="font-family:'Roboto Slab',serif; font-size:1.4em; color:var(--cor-principal); font-weight:700; position:sticky; top:0; background:var(--cor-fundo); padding:8px 5px; margin:0; border-bottom:2px solid var(--cor-secundaria); text-align:left;">
+        🗺️ Federações Estaduais de Futebol no Brasil
+      </h2>
+
+
+<div class="quiz-card"><p>🌻 4️⃣ Região Sudeste</p><a href='regiaosudeste.html'><img src="regioes.png" alt="Miniatura do quiz 4"></a></div>
+
+
+
+
+<div class="quiz-card"><p>🌴 2️⃣ Região Nordeste</p><a href='regiaonordeste.html'><img src="regioes.png" alt="Miniatura do quiz 4"></a></div>
+       
+
+ <div class="quiz-card"><p>🧭 1️⃣ Região Norte</p><a href='regiaonote.html'><img src="regioes.png" alt="Miniatura do quiz 5"></a></div>
+        
+
+<div class="quiz-card"><p>🧊 5️⃣ Região Sul</p><a href='regiaosul.html'><img src="regioes.png" alt="Miniatura do quiz 6"></a></div>
+        
+
+
+<div class="quiz-card"><p>🌾 3️⃣ Região Centro-Oeste</p><a href='regiaocetrooete'><img src="regioes.png" alt="Miniatura do quiz 7"></a></div>
+      </section>
+
+
+
+
+
+
+      <!-- COLUNA CENTRAL: VÍDEOS / LIVES / SHORTS -->
+      <div class="videos-coluna" style="flex:1; min-width:300px; display:flex; flex-direction:column; gap:20px;">
+        <!-- VÍDEOS -->
+        <section id="videosSection" class="section">
+          <h2>Vídeos <span class="count-badge">Assista à Case TV Vídeos</span></h2>
+          <div class="videos-container">
+            <a href="https://youtube.com/@CazeTV/videos?__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20" target="_blank">
+              <div class="video-card">
+                <img src="video.png" alt="Vídeos do canal">
+                <div class="video-info">
+                  <div class="title">Clique para ver todos os vídeos</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <!-- LIVES -->
+        <section id="livesSection" class="section">
+          <h2>Lives <span class="count-badge">Assista à Case TV Lives</span></h2>
+          <div class="videos-container">
+            <a href="https://www.youtube.com/@CazeTV/streams?__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20" target="_blank">
+              <div class="video-card">
+                <img src="lives.png" alt="Lives do canal">
+                <div class="video-info">
+                  <div class="title">Clique para ver todas as lives</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <!-- SHORTS -->
+        <section id="shortsSection" class="section">
+          <h2>Shorts <span class="count-badge">Assista à Case TV Shorts</span></h2>
+          <div class="videos-container">
+            <a href="https://www.youtube.com/@CazeTV/shorts?__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20" target="_blank">
+              <div class="video-card">
+                <img src="shorts.png" alt="Shorts do canal">
+                <div class="video-info">
+                  <div class="title">Clique para ver todos os shorts</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <!-- COLUNA DIREITA: NOTÍCIAS AUTOMÁTICAS -->
+<div class="noticias-coluna" style="flex:0 0 300px; height: 1100px; align-self: stretch; overflow-y:auto;">
+
+      
+        <section id="noticias-jogos" class="section" style="display:flex; flex-direction:column; gap:15px;">
+          <h2>Notícias Sobre Futebol Nacional<span class="count-badge">Atualizado</span></h2>
+          <div id="noticias-container" style="display:flex; flex-direction:column; gap:15px;"></div>
+          <div style="text-align:center; margin-top:15px;">
+            <button onclick="window.location.href='/noticias-jogos'" 
+                    style="background-color:var(--cor-secundaria); color:var(--cor-texto-claro); border:none; padding:10px 20px; border-radius:50px; cursor:pointer; font-weight:600; transition:0.2s;">
+              Ver todas as notícias
+            </button>
+          </div>
+        </section>
+      </div>
+
+    </div> <!-- fim main-layout -->
+
+
+    <!-- Botões de ação -->
+    <section class="action-buttons">
+      <button onclick="quiz()"> +QUIZ</button>
+      <button onclick="iniciarJogos()">GAMES</button>
+    </section>
+
+
+
+
+  </div> <!-- fim container -->
+</main>
+
+<!-- SCRIPT PARA CARREGAR NOTÍCIAS AUTOMATICAMENTE -->
+<script>
+async function fetchNoticiasJogos() {
+  const feeds = [
+    
+
+
+
+  
+
+'https://www.gazetaesportiva.com/feedrss/',                     // Gazeta Esportiva - Futebol
+'https://www.mg.superesportes.com.br/rss/noticias/futebol/futebol-nacional/rss.xml', // Superesportes - Futebol Nacional
+'https://www.torcedores.com/feed',                              // Torcedores.com - Notícias de Futebol
+'https://www.ogol.com.br/rss.php',                              // oGol - Futebol Brasileiro e Internacional
+'https://www.futebolinterior.com.br/rss/noticias/',              // Futebol Interior - Futebol Brasileiro
+'https://www.nsctotal.com.br/rss/futebol',                      // NSC Total - Futebol Catarinense e Nacional
+'https://www.diariodopeixe.com.br/feed/',                       // Diário do Peixe - Santos FC e Futebol Paulista
+'https://www.fogaonet.com/feed/',                               // FogãoNet - Botafogo e Futebol Carioca
+'https://www.meutimao.com.br/rss/noticias',                     // Meu Timão - Corinthians
+'https://onefootball.com/pt-br/rss/pt_br.xml'                   // OneFootball Brasil - Notícias gerais sobre futebol
+
+
+ 
+
+
+
+
+];
+
+  const container = document.getElementById('noticias-container');
+  container.innerHTML = '';
+
+  for (let feed of feeds) {
+    try {
+      const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed)}`);
+      const data = await response.json();
+
+      data.items.slice(0, 3).forEach(item => {
+        const card = document.createElement('div');
+        card.style.background = 'var(--cor-card-bg)';
+        card.style.padding = '10px';
+        card.style.borderRadius = '8px';
+        card.style.boxShadow = 'var(--sombra-suave)';
+        card.style.display = 'flex';
+        card.style.flexDirection = 'column';
+        card.style.gap = '6px';
+
+        card.innerHTML = `
+          <a href="${item.link}" target="_blank" style="text-decoration:none; color:var(--cor-principal); font-weight:600;">
+            ${item.title.substring(0, 60)}${item.title.length>60?'...':''}
+          </a>
+          <img src="${item.thumbnail || 'https://via.placeholder.com/150x80?text=Notícia'}" 
+               alt="${item.title}" style="width:100%; height:80px; object-fit:cover; border-radius:5px;">
+          <p style="font-size:0.85em; color:var(--cor-texto-escuro); margin:0;">
+            ${item.description.replace(/(<([^>]+)>)/gi, "").substring(0,80)}...
+          </p>
+        `;
+        container.appendChild(card);
+      });
+
+    } catch (err) {
+      console.error('Erro ao buscar RSS:', err);
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', fetchNoticiasJogos);
+</script>
+
+
+
+
+
+
+
+<section class="section" style="margin-top:40px;">
+  <h2 class="central-title">Mídias de Futebol Nacionais e Internacionais</h2>
+
+  <!-- FLEXBOX PRINCIPAL -->
+  <div class="main-layout" style="display:flex; gap:30px; align-items:flex-start; justify-content:flex-start; flex-wrap:nowrap;">
+
+    <!-- COLUNA NACIONAL -->
+    <section class="quizzes-section" style="flex:0 0 220px; display:flex; flex-direction:column; gap:15px; max-height:600px; overflow-y:auto;">
+      <h2 style="font-family:'Roboto Slab',serif; font-size:1.4em; color:var(--cor-principal); font-weight:700; position:sticky; top:0; background:var(--cor-fundo); padding:8px 5px; margin:0; border-bottom:2px solid var(--cor-secundaria); text-align:left;">
+        Nacional
+      </h2>
+
+      <style>
+        .quiz-card { display:flex; flex-direction:column; align-items:center; gap:4px; }
+        .quiz-card p { margin:0; font-size:0.95em; text-align:center; }
+        .bola-logo { width:1cm; height:1cm; border-radius:50%; background:url('https://upload.wikimedia.org/wikipedia/commons/d/d3/Soccerball.svg') center/contain no-repeat; display:block; margin-top:4px; }
+        .cor1{background-color:#f94144;} .cor2{background-color:#f3722c;} .cor3{background-color:#f8961e;} .cor4{background-color:#f9c74f;} .cor5{background-color:#90be6d;}
+        .cor6{background-color:#43aa8b;} .cor7{background-color:#577590;} .cor8{background-color:#277da1;} .cor9{background-color:#7209b7;} .cor10{background-color:#f72585;}
+      </style>
+
+      <div class="quiz-card"><p>Globo Esporte</p><a href="https://ge.globo.com/" target="_blank"><div class="bola-logo cor1"></div></a></div>
+      <div class="quiz-card"><p>UOL Esporte</p><a href="https://www.uol.com.br/esporte/" target="_blank"><div class="bola-logo cor2"></div></a></div>
+      <div class="quiz-card"><p>ESPN Brasil</p><a href="https://www.espn.com.br/" target="_blank"><div class="bola-logo cor3"></div></a></div>
+      <div class="quiz-card"><p>Terra Esportes</p><a href="https://www.terra.com.br/esportes/" target="_blank"><div class="bola-logo cor4"></div></a></div>
+      <div class="quiz-card"><p>Gazeta Esportiva</p><a href="https://www.gazetaesportiva.com/" target="_blank"><div class="bola-logo cor5"></div></a></div>
+      <div class="quiz-card"><p>Lance!</p><a href="https://www.lance.com.br/" target="_blank"><div class="bola-logo cor6"></div></a></div>
+      <div class="quiz-card"><p>Placar</p><a href="https://placar.abril.com.br/" target="_blank"><div class="bola-logo cor7"></div></a></div>
+      <div class="quiz-card"><p>Superesportes</p><a href="https://www.mg.superesportes.com.br/" target="_blank"><div class="bola-logo cor8"></div></a></div>
+      <div class="quiz-card"><p>R7 Esportes</p><a href="https://esportes.r7.com/" target="_blank"><div class="bola-logo cor9"></div></a></div>
+      <div class="quiz-card"><p>O Globo Esporte</p><a href="https://oglobo.globo.com/esportes/" target="_blank"><div class="bola-logo cor10"></div></a></div>
+    </section>
+
+    <!-- COLUNA INTERNACIONAL -->
+    <section class="quizzes-section" style="flex:0 0 220px; display:flex; flex-direction:column; gap:15px; max-height:600px; overflow-y:auto; border-left:2px solid #ccc; padding-left:15px;">
+      <h2 style="font-family:'Roboto Slab',serif; font-size:1.4em; color:var(--cor-principal); font-weight:700; position:sticky; top:0; background:var(--cor-fundo); padding:8px 5px; margin:0; border-bottom:2px solid var(--cor-secundaria); text-align:left;">
+        Internacional
+      </h2>
+
+      <div class="quiz-card"><p>BBC Sport</p><a href="https://www.bbc.com/sport/football" target="_blank"><div class="bola-logo cor1"></div></a></div>
+      <div class="quiz-card"><p>Sky Sports</p><a href="https://www.skysports.com/football" target="_blank"><div class="bola-logo cor2"></div></a></div>
+      <div class="quiz-card"><p>ESPN FC</p><a href="https://www.espn.com/soccer/" target="_blank"><div class="bola-logo cor3"></div></a></div>
+      <div class="quiz-card"><p>Goal.com</p><a href="https://www.goal.com/" target="_blank"><div class="bola-logo cor4"></div></a></div>
+      <div class="quiz-card"><p>90min</p><a href="https://www.90min.com/" target="_blank"><div class="bola-logo cor5"></div></a></div>
+      <div class="quiz-card"><p>FourFourTwo</p><a href="https://www.fourfourtwo.com/" target="_blank"><div class="bola-logo cor6"></div></a></div>
+      <div class="quiz-card"><p>Marca</p><a href="https://www.marca.com/en/" target="_blank"><div class="bola-logo cor7"></div></a></div>
+      <div class="quiz-card"><p>AS</p><a href="https://as.com/" target="_blank"><div class="bola-logo cor8"></div></a></div>
+      <div class="quiz-card"><p>Sport (Espanha)</p><a href="https://www.sport.es/en/" target="_blank"><div class="bola-logo cor9"></div></a></div>
+      <div class="quiz-card"><p>La Gazzetta dello Sport</p><a href="https://www.gazzetta.it/" target="_blank"><div class="bola-logo cor10"></div></a></div>
+    </section>
+
+     <!-- COLUNA DIREITA: NOTÍCIAS DE FUTEBOL -->
+<section id="noticias-futebol-section" class="section" 
+         style="flex:1 0 auto; display:flex; flex-direction:column; gap:15px; height:100vh; overflow-y:auto;">
+  <h2>Notícias de Futebol Internacional<span class="count-badge">Atualizado</span></h2>
+  <div id="noticias-futebol" style="display:flex; flex-direction:column; gap:15px;"></div>
+  <div style="text-align:center; margin-top:15px;">
+    <button onclick="window.location.href='/noticias-futebol'" 
+            style="background-color:var(--cor-secundaria); color:var(--cor-texto-claro); border:none; padding:10px 20px; border-radius:50px; cursor:pointer; font-weight:600; transition:0.2s;">
+      Ver todas as notícias
+    </button>
+  </div>
+</section>
+
+<script>
+(async () => {
+  const container = document.getElementById('noticias-futebol');
+
+  const feeds = [
+    'https://api.rss2json.com/v1/api.json?rss_url=https://www.espn.com.br/espn/rss/football/news',
+    'https://api.rss2json.com/v1/api.json?rss_url=https://feeds.bbci.co.uk/sport/football/rss.xml',
+    'https://api.rss2json.com/v1/api.json?rss_url=https://www.goal.com/en/feeds/news'
+  ];
+
+  async function atualizarNoticias() {
+    if (!container) return;
+    container.innerHTML = '';
+
+    let totalNoticias = 0;
+
+    for (let feed of feeds) {
+      if (totalNoticias >= 20) break; // mostra apenas 20 notícias
+
+      try {
+        const res = await fetch(feed);
+        const data = await res.json();
+        if (!data.items) continue;
+
+        for (let item of data.items) {
+          if (totalNoticias >= 20) break;
+
+          const card = document.createElement('div');
+          card.style.background = 'var(--cor-card-bg)';
+          card.style.padding = '10px';
+          card.style.borderRadius = '8px';
+          card.style.boxShadow = 'var(--sombra-suave)';
+          card.style.display = 'flex';
+          card.style.flexDirection = 'column';
+          card.style.gap = '6px';
+
+          card.innerHTML = `
+            <a href="${item.link}" target="_blank" style="text-decoration:none; color:var(--cor-principal); font-weight:600;">
+              ${item.title.substring(0, 60)}${item.title.length>60?'...':''}
+            </a>
+            <img src="${item.thumbnail || 'https://via.placeholder.com/150x80?text=Futebol'}" 
+                 alt="${item.title}" style="width:100%; height:80px; object-fit:cover; border-radius:5px;">
+            <p style="font-size:0.85em; color:var(--cor-texto-escuro); margin:0;">
+              ${item.description.replace(/(<([^>]+)>)/gi, "").substring(0,80)}...
+            </p>
+          `;
+          container.appendChild(card);
+          totalNoticias++;
+        }
+
+      } catch (err) {
+        console.error('Erro ao buscar RSS:', err);
+        const msg = document.createElement('p');
+        msg.textContent = 'Não foi possível carregar as notícias de futebol no momento.';
+        container.appendChild(msg);
+      }
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    atualizarNoticias();
+    setInterval(atualizarNoticias, 5*60*1000); // Atualiza a cada 5 minutos
+  });
+})();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bloco de anúncio AdSense -->
+<div style="margin: 40px 0; display: flex; justify-content: center;">
+  <ins class="adsbygoogle" 
+       style="display:block"
+       data-ad-client="ca-pub-1074669766193195"
+       data-ad-slot="1234567890"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+</div>
+
+
+
+
+
+
+
+
+<footer class="footer" id="contato">
+<div class="footer-content">
+<div class="footer-section"><h4>Navegação</h4><ul><li><a href='/'>Início</a></li></ul></div>
+<div class="footer-section"><h4>Institucional</h4><ul><li><a href='/legislacao'>Legislação</a></li><li><a href='/privacidade'> Privacidade</a></li></ul></div>
+<div class="footer-section"><h4>Suporte</h4><ul><li><a href='/faleconosco'>Fale Conosco</a></li></ul></div>
+<div class="footer-section"><h4>Redes Sociais</h4><ul><li><a href="https://www.instagram.com/@chacarameninocampeiro/" class="social-link">Instagram</a></li><li><a href="https://www.youtube.com/@ChacaraMeninoCampeiro-m8r" class="social-link">YouTube</a></li></ul></div>
+</div>
+<div class="footer-bottom">© 2025 Minecraft Chácara Menino Campeiro — Todos os direitos reservados.</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Navegação
+function quiz() { window.location.href = "quiz.html"; }
+function iniciarJogos() { window.location.href = "diversao.html"; }
+
+// Funções AdSense
+function loadAdsense() {
+    if (!document.getElementById('adsense-script')) {
+        const script = document.createElement('script');
+        script.id = 'adsense-script';
+        script.async = true;
+        script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195";
+        script.crossOrigin = "anonymous";
+        script.onload = function() { (adsbygoogle = window.adsbygoogle || []).push({}); }
+        document.head.appendChild(script);
+    } else { (adsbygoogle = window.adsbygoogle || []).push({}); }
+}
+</script>
+
+<!-- Banner de consentimento -->
+<div id="cookie-banner">
+  Este site utiliza cookies para melhorar sua experiência e exibir anúncios personalizados.<br>
+  <a href="/privacidade">Política de Privacidade</a><br>
+  <button id="accept-cookies">Aceitar todos</button>
+  <button id="reject-cookies">Recusar</button>
+  <button id="custom-cookies">Configurar Cookies</button>
+</div>
+
+<div id="cookie-modal">
+  <div class="modal-content">
+    <h3>Configuração de Cookies</h3>
+    <label><input type="checkbox" id="analytics-cookie"> Cookies de Analytics (Google Analytics)</label>
+    <label><input type="checkbox" id="ads-cookie"> Cookies de Publicidade (Google AdSense)</label>
+    <button id="save-preferences">Salvar Preferências</button>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const banner = document.getElementById('cookie-banner');
+    const modal = document.getElementById('cookie-modal');
+    const consent = JSON.parse(localStorage.getItem('cookieConsent') || '{}');
+
+    if (consent.analytics) loadGoogleAnalytics();
+    if (consent.ads) loadAdsense();
+
+    if (!consent.hasOwnProperty('analytics') && !consent.hasOwnProperty('ads')) {
+        banner.style.display = 'block';
+    }
+
+    document.getElementById('accept-cookies').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', JSON.stringify({analytics:true, ads:true}));
+        loadGoogleAnalytics();
+        loadAdsense();
+        banner.style.display = 'none';
+    });
+
+    document.getElementById('reject-cookies').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', JSON.stringify({analytics:false, ads:false}));
+        banner.style.display = 'none';
+    });
+
+    document.getElementById('custom-cookies').addEventListener('click', function() {
+        modal.style.display = 'flex';
+        document.getElementById('analytics-cookie').checked = consent.analytics || false;
+        document.getElementById('ads-cookie').checked = consent.ads || false;
+    });
+
+    document.getElementById('save-preferences').addEventListener('click', function() {
+        const analytics = document.getElementById('analytics-cookie').checked;
+        const ads = document.getElementById('ads-cookie').checked;
+        localStorage.setItem('cookieConsent', JSON.stringify({analytics, ads}));
+        if (analytics) loadGoogleAnalytics();
+        if (ads) loadAdsense();
+        modal.style.display = 'none';
+        banner.style.display = 'none';
+    });
+});
+</script>
+
+</body>
+</html>

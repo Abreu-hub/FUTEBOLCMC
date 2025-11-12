@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notícias de Jogos - Minecraft Chacara Menino Campeiro</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --cor-principal: #1f50a8;
+  --cor-secundaria: #ff5722;
+  --cor-fundo: #f0f0f5;
+  --cor-texto-escuro: #333;
+  --cor-texto-claro: #fff;
+  --cor-card-bg: #fff;
+  --cor-secao-bg: #fdfdff;
+  --sombra-suave: 0 4px 12px rgba(0,0,0,0.08);
+  --transicao-rapida: 0.2s ease;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto-escuro);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.central-title {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  color: var(--cor-principal);
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.noticias-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.noticia-card {
+  background: var(--cor-card-bg);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--sombra-suave);
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transicao-rapida), box-shadow var(--transicao-rapida);
+  cursor: pointer;
+}
+
+.noticia-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.noticia-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.noticia-content {
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.noticia-title {
+  font-weight: 700;
+  color: var(--cor-principal);
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.noticia-desc {
+  font-size: 0.9em;
+  color: var(--cor-texto-escuro);
+}
+
+@media (max-width: 768px) {
+  .noticias-container { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2 class="central-title">Notícias de Jogos</h2>
+  <div id="noticias-container" class="noticias-container"></div>
+</div>
+
+<script>
+async function fetchTodasNoticias() {
+  const feeds = [
+    'https://www.ign.com/feeds/all',
+    'https://www.gamespot.com/feeds/news/',
+    'https://www.pcgamer.com/rss/',
+    'https://www.gamereactor.pt/rss/',               // Gamereactor Portugal — notícias de videojogos em português europeu
+ 
+  ];
+
+
+
+
+  const container = document.getElementById('noticias-container');
+  container.innerHTML = '';
+
+  for (let feed of feeds) {
+    try {
+      const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed)}`);
+      const data = await response.json();
+
+      data.items.forEach(item => {
+        const card = document.createElement('a');
+        card.href = item.link;
+        card.target = "_blank";
+        card.className = "noticia-card";
+
+        card.innerHTML = `
+          <img src="${item.thumbnail || 'https://via.placeholder.com/300x150?text=Notícia'}" alt="${item.title}">
+          <div class="noticia-content">
+            <div class="noticia-title">${item.title.length > 60 ? item.title.substring(0, 60) + '...' : item.title}</div>
+            <div class="noticia-desc">${item.description.replace(/(<([^>]+)>)/gi, "").substring(0,100)}...</div>
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+
+    } catch (err) {
+      console.error('Erro ao buscar RSS:', err);
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', fetchTodasNoticias);
+</script>
+
+</body>
+</html>

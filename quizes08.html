@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DEKRSE4D4M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-DEKRSE4D4M');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Futebol</title>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195"
+     crossorigin="anonymous"></script>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        max-width: 700px;
+        margin: auto;
+        background-image: url('regioes.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white; /* 🔹 Todas as letras brancas */
+        position: relative;
+    }
+    h1, h2, h3, p {
+        text-align: center;
+        color: white; /* 🔹 Letras brancas */
+    }
+    .question {
+        margin-bottom: 20px;
+        color: white; /* 🔹 Letras brancas */
+    }
+    .answers button {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        width: 100%;
+        font-size: 16px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white; /* 🔹 Texto branco */
+        border: none;
+        border-radius: 5px;
+    }
+    #feedback {
+        font-weight: bold;
+        margin-top: 15px;
+        text-align: center;
+        color: white; /* 🔹 Texto branco */
+    }
+    #status {
+        position: fixed;
+        top: 10px;
+        right: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white; /* 🔹 Texto branco */
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #final-buttons {
+        text-align: center;
+        margin-top: 20px;
+        color: white; /* 🔹 Texto branco */
+    }
+    .feedback-img {
+        display: none;
+        margin: 10px auto;
+        max-width: 200px;
+        height: auto;
+        border: 3px solid white;
+        border-radius: 8px;
+    }
+    .quiz-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .question-text {
+        flex: 1;
+        text-align: left;
+        color: white; /* 🔹 Texto branco */
+    }
+    .question-image {
+        flex-shrink: 0;
+        margin-left: 20px;
+    }
+    .final-message {
+        font-size: 50px;
+        font-weight: bold;
+        color: white; /* 🔹 Texto branco */
+        text-align: center;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .final-buttons button {
+        padding: 15px 30px;
+        margin: 10px;
+        font-size: 18px;
+        background-color: #4CAF50;
+        color: white; /* 🔹 Texto branco */
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .final-buttons button:hover {
+        background-color: #45a049;
+    }
+    /* Estilo para o contador de acessos */
+    #contador {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 12px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white; /* 🔹 Texto branco */
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+    <h1>Quiz Futebol</h1>
+    <div id="status">✅ Acertos: 0 | ❌ Erros: 0</div>
+    <div id="quiz"></div>
+    <div id="feedback"></div>
+    <div id="final-buttons" style="display: none;">
+        <div id="final-message" class="final-message"></div>
+        <div class="final-buttons">
+            <button onclick="finalizarQuiz()">Finalizar</button>
+        </div>
+    </div>
+
+    <!-- Contador de acessos -->
+    <div id="contador"></div>
+
+    <script>
+        // Inicializa o contador de acessos
+        if (localStorage.getItem("contadorAcessos")) {
+            let contador = parseInt(localStorage.getItem("contadorAcessos"));
+            contador += 1;
+            localStorage.setItem("contadorAcessos", contador);
+        } else {
+            localStorage.setItem("contadorAcessos", 1);
+        }
+
+        function exibirContadorAcessos() {
+            const contador = localStorage.getItem("contadorAcessos");
+            document.getElementById("contador").innerText = `Seus Acessos nesta pag: ${contador}`;
+        }
+
+        const perguntas = [
+  {
+    pergunta: "Qual é o nome do principal prêmio individual entregue ao melhor jogador do Campeonato Capixaba?",
+    opcoes: ["Bola de Ouro Capixaba", "Craque do Capixabão", "Prêmio Melhor Jogador", "Chuteira de Ouro"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual dessas ações costuma aumentar a receita dos clubes capixabas além da venda de ingressos?",
+    opcoes: ["Doações municipais", "Multas aplicadas pela FES", "Venda de atletas para clubes maiores", "Proibição de merchandising"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual é o principal objetivo das escolinhas ligadas a clubes do Espírito Santo?",
+    opcoes: ["Recolher impostos locais", "Formar árbitros profissionais", "Revelar e formar jovens atletas", "Organizar torneios internacionais"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "Qual desses formatos de competição a FES costuma usar para decidir um campeão em torneios curtos?",
+    opcoes: ["Grupo único com todos se enfrentando", "Chave dupla com ida e volta e final", "Eliminação simples direto", "Série de pontos corridos em dois turnos"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Que tipo de apoio financeiro a FES pode oferecer a clubes amadores em projetos sociais?",
+    opcoes: ["Empréstimos a juros altos", "Patrocínio integral da folha salarial", "Doações para reforma de quadras"], 
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual é a principal finalidade das competições femininas organizadas pela FES?",
+    opcoes: ["Promover a modalidade e dar acesso a torneios nacionais", "Gerar renda exclusiva para árbitras", "Incentivar importação de jogadoras", "Reunir ex-jogadoras apenas para amistosos"],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual desses perfis costuma ser requisito para um clube se inscrever na Série A do Campeonato Capixaba?",
+    opcoes: ["Ter torcida mínima de 10 mil pagantes por jogo", "Estar em dia com a documentação e certidões", "Ser fundado há mais de 50 anos", "Possuir centro de treinamento internacional"],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual é o principal canal usado atualmente para a FES divulgar tabelas e comunicados oficiais?",
+    opcoes: ["Jornais impressos locais", "Rádio comunitária", "Site e redes sociais oficiais", "Anúncios em ônibus urbanos"],
+    respostaCorreta: 2
+  },
+  {
+    pergunta: "O que costuma determinar o rebaixamento de um clube na competição estadual?",
+    opcoes: ["Sorteio entre os últimos colocados", "Número de cartões recebidos", "Posição na tabela ao final da fase regular", "Quantidade de sócios-torcedores cadastrados"],
+    respostaCorreta: 3
+  },
+  {
+    pergunta: "Qual dessas iniciativas veteranas já foi lançada por clubes capixabas para aproximar a base da torcida?",
+    opcoes: ["Programas de sócio-torcedor", "Venda exclusiva por catálogo", "Proibição de bandeiras", "Exclusão de menores de idade"],
+    respostaCorreta: 0
+  }
+]
+
+
+
+
+
+
+;
+
+        let perguntaAtual = 0;
+        let acertos = 0;
+        let erros = 0;
+        let perguntaRespondida = false;
+
+        function atualizarStatus() {
+            document.getElementById("status").innerText = `✅ Acertos: ${acertos} | ❌ Erros: ${erros}`;
+        }
+
+        function mostrarPergunta() {
+            const quizDiv = document.getElementById("quiz");
+            const feedback = document.getElementById("feedback");
+            feedback.innerHTML = "";
+            perguntaRespondida = false;
+
+            if (perguntaAtual >= perguntas.length) {
+                const total = acertos + erros;
+                const percentual = ((acertos / total) * 100).toFixed(1);
+                quizDiv.innerHTML = `<h2>Fim do Quiz!</h2>
+                    <p style="text-align:center;">✅ Acertos: ${acertos} | ❌ Erros: ${erros}</p>
+                    <p style="text-align:center;">🎯 Porcentagem de acerto: ${percentual}%</p>`;
+                
+                const finalMessage = document.getElementById("final-message");
+
+                if (percentual >= 100) {
+                    finalMessage.innerHTML = "Você é um mestre do Futebol!";
+                } else if (percentual >= 80) {
+                    finalMessage.innerHTML = "Muito bom! Você joga bem!";
+                } else if (percentual >= 60) {
+                    finalMessage.innerHTML = "Você é bom, mas ainda pode melhorar!";
+                } else {
+                    finalMessage.innerHTML = "Vamos treinar mais um pouco!";
+                }
+
+                document.getElementById("final-buttons").style.display = "block";
+                return;
+            }
+
+            const pergunta = perguntas[perguntaAtual];
+            let html = `<div class="quiz-container">
+                            <div class="question-text">
+                                <h3>${pergunta.pergunta}</h3>
+                                <div class="answers">`;
+            pergunta.opcoes.forEach((opcao, index) => {
+                html += `<button onclick="verificarResposta(${index}, this)">${opcao}</button>`;
+            });
+            html += `</div></div>
+                    <div class="question-image">
+                        <img src="cartao vermelho.jpg" alt="Imagem de erro" id="imageErro" class="feedback-img">
+                        <img src="cartao amarelo.jpg" alt="Imagem de acerto" id="imageAcerto" class="feedback-img">
+                    </div>
+                </div>`;
+
+            quizDiv.innerHTML = html;
+        }
+
+        function verificarResposta(indiceSelecionado, button) {
+            if (perguntaRespondida) return;
+            perguntaRespondida = true;
+
+            const pergunta = perguntas[perguntaAtual];
+            const feedback = document.getElementById("feedback");
+            const imgAcerto = document.getElementById("imageAcerto");
+            const imgErro = document.getElementById("imageErro");
+
+            const buttons = document.querySelectorAll(".answers button");
+            buttons.forEach(btn => btn.disabled = true);
+
+            if (indiceSelecionado === pergunta.respostaCorreta) {
+                acertos++;
+                feedback.innerHTML = "✅ Acertou!";
+                imgAcerto.style.display = "block"; 
+                imgErro.style.display = "none"; 
+            } else {
+                erros++;
+                feedback.innerHTML = "❌ Errou!";
+                imgErro.style.display = "block"; 
+                imgAcerto.style.display = "none"; 
+            }
+
+            atualizarStatus();
+
+            setTimeout(() => {
+                perguntaAtual++;
+                mostrarPergunta();
+            }, 2000);
+        }
+
+        function finalizarQuiz() {
+            document.body.innerHTML = `
+                <h1 style='font-size: 50px; color: white; text-align: center;'>Obrigado por jogar! Até a próxima!</h1>
+                <div style="text-align: center; margin-top: 30px;">
+                    <button onclick="window.location.href='index.html'" style="padding: 15px 30px; font-size: 18px; background-color: #2196F3; color: white; border: none; border-radius: 5px; font-weight: bold; cursor: pointer;">
+                        Voltar para o Início
+                    </button>
+                </div>
+            `;
+        }
+
+        exibirContadorAcessos();
+        atualizarStatus();
+        mostrarPergunta();
+    </script>
+
+
+<!-- Bloco de anúncio AdSense -->
+<div style="margin: 40px 0; display: flex; justify-content: center;">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-1074669766193195"
+       data-ad-slot="1234567890"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+</div>
+
+
+
+</body>
+</html>
