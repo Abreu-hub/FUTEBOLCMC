@@ -15,15 +15,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz Futebol</title>
 
-
 <!-- Botões de ação -->
     <section class="action-buttons">
   <button onclick="window.location.href='index.html'">Página Inicial</button>
 </section>
 
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195"
      crossorigin="anonymous"></script>
+
+
+
 
 
 <style>
@@ -167,58 +168,60 @@
         }
 
         const perguntas = [
+            
   {
-    pergunta: "Qual estádio é considerado o principal palco do futebol capixaba?",
-    opcoes: ["Estádio Kléber Andrade", "Engenheiro Araripe", "Maracanã", "Castelão"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual clube capixaba já disputou a Série A do Campeonato Brasileiro?",
-    opcoes: ["Vitória-ES", "Rio Branco-ES", "Desportiva Ferroviária", "Linhares FC"],
-    respostaCorreta: 2
-  },
-  {
-    pergunta: "Qual é o município de origem do clube Real Noroeste Capixaba Futebol Clube?",
-    opcoes: ["São Mateus", "Colatina", "Água Doce do Norte", "Águia Branca"],
-    respostaCorreta: 3
-  },
-  {
-    pergunta: "Qual competição estadual define o representante do Espírito Santo na Copa do Brasil?",
-    opcoes: ["Copa ES", "Campeonato Capixaba", "Supercopa Capixaba", "Torneio Início"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual emissora costuma transmitir as finais do Campeonato Capixaba?",
-    opcoes: ["TV Gazeta", "TV Vitória", "TV Tribuna", "RedeTV! ES"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual clube capixaba é conhecido pelo apelido 'Brancão'? ",
-    opcoes: ["Rio Branco-ES", "Vitória-ES", "Serra FC", "Vilavelhense"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual dessas cidades **não** possui clube com participação recente em campeonatos da FES?",
-    opcoes: ["Linhares", "Serra", "Cachoeiro de Itapemirim", "Anchieta"],
-    respostaCorreta: 3
-  },
-  {
-    pergunta: "Em qual década o futebol capixaba viveu seu auge com clubes disputando torneios nacionais?",
-    opcoes: ["1970", "1980", "1990", "2000"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual competição reúne clubes campeões do Capixabão e da Copa ES?",
-    opcoes: ["Supercopa Capixaba", "Taça Espírito Santo", "Copa dos Campeões", "Troféu Capixaba"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Quem é o atual presidente da FES (gestão 2023–2027)?",
-    opcoes: ["Lucas Arruda", "Gustavo Vieira", "João Bosco", "José Carlos Bernabé"],
-    respostaCorreta: 1
-  }
-]
-;
+"pergunta": "Em que ano a FMF (Federação Mineira de Futebol) foi fundada com o nome original 'Liga Mineira de Esportes Atléticos'?",
+"opcoes": ["1930", "1920", "1915", "1925"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual era o nome original da entidade que depois se tornou a FMF?",
+"opcoes": ["Confederação Mineira de Esportes", "Liga Mineira de Desportos Terrestres", "Associação Atlética Mineira", "Federação de Futebol de Minas Gerais"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Em que cidade está localizada a sede da FMF?",
+"opcoes": ["Juiz de Fora", "Montes Claros", "Uberlândia", "Belo Horizonte"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual dessas competições é organizada diretamente pela FMF?",
+"opcoes": ["Copa Verde", "Campeonato Mineiro", "Copa do Nordeste", "Campeonato Brasileiro Série A"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual desses clubes faz parte do 'trio de ferro' do futebol mineiro?",
+"opcoes": ["São Paulo", "Flamengo", "Atlético-MG", "Corinthians"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Segundo dados recentes, qual foi o valor aproximado dos investimentos da FMF em 2024?",
+"opcoes": ["R$ 30 milhões", "R$ 25 milhões", "R$ 1 milhão", "R$ 15 milhões"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FMF anunciou o calendário com recorde de 18 competições estaduais?",
+"opcoes": ["2026", "2024", "2025", "2023"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual é a principal função da Federação Mineira de Futebol?",
+"opcoes": ["Organizar apenas o futebol feminino", "Controlar seleções internacionais", "Gerenciar apenas clubes da capital", "Administrar o futebol profissional e amador no estado"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "A FMF é filiada a qual entidade do futebol brasileiro?",
+"opcoes": ["Federação Paulista de Futebol", "FIFA", "Federação Mineira de Futebol", "Confederação Brasileira de Futebol (CBF)"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é a data oficial de fundação da atual FMF, conforme o estatuto?",
+"opcoes": ["05 de março de 1915", "10 de junho de 1920", "22 de abril de 1930", "15 de agosto de 1925"],
+"respostaCorreta": 1
+}
+
+
+];
 
         let perguntaAtual = 0;
         let acertos = 0;
@@ -323,6 +326,9 @@
         atualizarStatus();
         mostrarPergunta();
     </script>
+
+
+
 <!-- Bloco de anúncio AdSense -->
 <div style="margin: 40px 0; display: flex; justify-content: center;">
   <ins class="adsbygoogle"

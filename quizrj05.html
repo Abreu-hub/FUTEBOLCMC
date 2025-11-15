@@ -15,7 +15,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz Futebol</title>
 
-
 <!-- Botões de ação -->
     <section class="action-buttons">
   <button onclick="window.location.href='index.html'">Página Inicial</button>
@@ -23,6 +22,9 @@
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195"
      crossorigin="anonymous"></script>
+
+
+
 
 
 <style>
@@ -166,61 +168,63 @@
         }
 
         const perguntas = [
-  {
-    pergunta: "Qual é o nome do mascote oficial da Desportiva Ferroviária?",
-    opcoes: ["Leão Grená", "Águia Rubra", "Tigre Grená", "Pantera Capixaba"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual clube capixaba foi campeão da Série B do Campeonato Capixaba em 2023?",
-    opcoes: ["SC Brasil Capixaba", "Vilavelhense", "Linhares FC", "Pinheiros"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Em que cidade fica o Estádio Olímpio Perim, utilizado em competições da FES?",
-    opcoes: ["Venda Nova do Imigrante", "Colatina", "Afonso Cláudio", "São Mateus"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual competição organizada pela FES é voltada exclusivamente para categorias Sub-20?",
-    opcoes: ["Campeonato Capixaba Sub-20", "Copa Jovem Capixaba", "Taça de Base FES", "Copa Juniores do ES"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Em que ano o Real Noroeste conquistou seu primeiro título do Campeonato Capixaba?",
-    opcoes: ["2020", "2021", "2019", "2018"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual clube capixaba tem as cores preto e branco como principais?",
-    opcoes: ["Vitória-ES", "Rio Branco-ES", "Nova Venécia", "Serra FC"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual destes jogadores capixabas atuou profissionalmente no exterior?",
-    opcoes: ["Paulo Sérgio", "Adriano Louzada", "Leandrinho", "Rodrigo Cordeiro"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual competição estadual serve de preparação para o Campeonato Capixaba Série B?",
-    opcoes: ["Copa FES de Acesso", "Copa ES", "Torneio Início", "Taça Capixaba de Preparação"],
-    respostaCorreta: 2
-  },
-  {
-    pergunta: "Qual dessas cidades já recebeu jogos da Copa Espírito Santo?",
-    opcoes: ["Anchieta", "Aracruz", "Castelo", "Mucurici"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Quantos clubes geralmente participam da Série A do Campeonato Capixaba?",
-    opcoes: ["8", "10", "12", "16"],
-    respostaCorreta: 1
-  }
-]
+
+
+            
+{
+"pergunta": "Qual clube carioca tem o maior número de títulos do Campeonato Carioca até 2024?",
+"opcoes": ["Vasco da Gama", "Botafogo", "Flamengo", "Fluminense"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual clube tem o segundo maior número de títulos do Campeonato Carioca até 2024?",
+"opcoes": ["Flamengo", "Vasco da Gama", "Fluminense", "Botafogo"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FERJ foi fundada pela fusão da FCF e da FFD?",
+"opcoes": ["1979", "1978", "1980", "1977"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual foi o primeiro torneio organizado pela FERJ em 1979?",
+"opcoes": ["Taça Guanabara", "Copa Rio", "Campeonato Estadual Especial", "Campeonato de Base"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço da primeira sede da FERJ?",
+"opcoes": ["Rua da Assembléia, 671", "Avenida Rio Branco, 81", "Praça da República, 200", "Rua do Ouvidor, 161"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual foi o vice-campeão da Copa Rio de 2024?",
+"opcoes": ["Boavista", "Portuguesa-RJ", "Maricá", "Olaria"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantas equipes disputaram a Série B1 do Campeonato Carioca em 2024?",
+"opcoes": ["12", "10", "8", "9"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Guanabara do Campeonato Carioca de 2025?",
+"opcoes": ["Saldo de gols", "Gols marcados", "Confronto direto", "Número de vitórias"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano começou o mandato atual de Rubens Lopes na FERJ?",
+"opcoes": ["2022", "2020", "2019", "2023"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número total de títulos do Flamengo no Campeonato Carioca até 2024?",
+"opcoes": ["37", "39", "38", "36"],
+"respostaCorreta": 3
+}
 
 
 
-;
+];
 
         let perguntaAtual = 0;
         let acertos = 0;
@@ -325,6 +329,8 @@
         atualizarStatus();
         mostrarPergunta();
     </script>
+
+
 
 <!-- Bloco de anúncio AdSense -->
 <div style="margin: 40px 0; display: flex; justify-content: center;">

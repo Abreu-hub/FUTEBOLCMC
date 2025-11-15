@@ -15,15 +15,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz Futebol</title>
 
-
 <!-- Botões de ação -->
     <section class="action-buttons">
   <button onclick="window.location.href='index.html'">Página Inicial</button>
 </section>
 
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195"
      crossorigin="anonymous"></script>
+
+
+
+
 
 <style>
     body {
@@ -166,65 +168,58 @@
         }
 
         const perguntas = [
-  {
-    pergunta: "Qual clube costuma aparecer com mais frequência nas finais do Campeonato Capixaba nas últimas duas décadas?",
-    opcoes: ["Rio Branco-ES", "Serra FC", "Vitória-ES", "Real Noroeste"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual documento oficial define o regulamento das competições organizadas pela FES?",
-    opcoes: ["Calendário anual", "Regulamento Geral de Competições", "Comunicado de imprensa", "Boletim Financeiro"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual é a principal vantagem para um clube capixaba vencer a Copa Espírito Santo (Copa ES)?",
-    opcoes: ["Isenção de taxas estaduais", "Convite para amistosos internacionais", "Vaga em competições nacionais (ex.: Copa do Brasil)", "Substituição automática do presidente da FES"],
-    respostaCorreta: 2
-  },
-  {
-    pergunta: "Qual destes temas costuma ser alvo de projetos da FES para desenvolvimento social?",
-    opcoes: ["Construção de rodovias", "Cursos de administração pública", "Projetos de inclusão esportiva (base e paradesporto)", "Importação de jogadores estrangeiros"],
-    respostaCorreta: 3
-  },
-  {
-    pergunta: "Qual setor da FES é responsável por organizar e capacitar árbitros no estado?",
-    opcoes: ["Departamento de Arbitragem", "Departamento Médico", "Departamento de Marketing", "Comissão de Estatística"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual desses elementos é exigido para um estádio ser homologado pela FES para jogos profissionais?",
-    opcoes: ["Bancos de reservas cobertos", "Iluminação adequada para jogos noturnos", "Vestiários amplos e conformes", "Todas as anteriores"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual desses públicos-alvo costuma ser prioridade nas ações de base apoiadas pela FES?",
-    opcoes: ["Apenas atletas profissionais", "Treinadores estrangeiros", "Categorias de base (Sub-13 a Sub-20)", "Sócios-aposentados"],
-    respostaCorreta: 2
-  },
-  {
-    pergunta: "Qual é uma medida habitual da FES para incentivar público em jogos de menor porte?",
-    opcoes: ["Proibir menores de idade", "Aumentar preço dos ingressos", "Campanhas em escolas e ingressos promocionais", "Restringir circulação nas redes sociais"],
-    respostaCorreta: 3
-  },
-  {
-    pergunta: "Em competições oficiais da FES, qual é o procedimento mais comum quando um clube não apresenta documentação regular?",
-    opcoes: ["Conceder vitória automática ao adversário", "Transferir pontuação para outro clube", "Aplicar multa e suspender inscrição até regularização", "Premiar o clube com isenção futura"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual dessas ações a FES frequentemente realiza para promover o futebol feminino no estado?",
-    opcoes: ["Negar inscrições de clubes femininos", "Criar torneios e calendários específicos", "Exigir limite de público apenas para jogos femininos", "Proibir transmissões online"],
-    respostaCorreta: 3
-  }
-]
+
+
+            
+{
+"pergunta": "Em que data exata foi fundada a FERJ pela fusão da FCF e FFD?",
+"opcoes": ["15 de março de 1979", "22 de abril de 1980", "10 de junho de 1977", "29 de setembro de 1978"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual foi o primeiro campeonato unificado sob a FERJ em 1979?",
+"opcoes": ["Copa Rio", "Taça Guanabara", "Campeonato Estadual Especial", "Campeonato de Base"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço histórico da primeira sede da FERJ?",
+"opcoes": ["Praça da República, 200", "Rua do Ouvidor, 161", "Avenida Rio Branco, 81", "Rua da Assembléia, 671"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual clube foi vice-campeão da Copa Rio de 2024?",
+"opcoes": ["Boavista", "Portuguesa-RJ", "Maricá", "Olaria"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantas equipes disputaram a Série B1 do Campeonato Carioca em 2024?",
+"opcoes": ["8", "9", "10", "12"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Guanabara de 2025?",
+"opcoes": ["Confronto direto", "Gols marcados", "Saldo de gols", "Número de vitórias"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o mandato atual de Rubens Lopes na FERJ em 2025?",
+"opcoes": ["2022-2026", "2018-2022", "2026-2030", "2023-2027"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número de edições do Campeonato Carioca até 2024?",
+"opcoes": ["125", "123", "126", "127"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano a FERJ homologou títulos históricos como o de 1937 do São Cristóvão?",
+"opcoes": ["2023", "2005", "2015", "2012"],
+"respostaCorreta": 1
+}
 
 
 
-
-
-
-
-;
+];
 
         let perguntaAtual = 0;
         let acertos = 0;
@@ -329,6 +324,8 @@
         atualizarStatus();
         mostrarPergunta();
     </script>
+
+
 
 <!-- Bloco de anúncio AdSense -->
 <div style="margin: 40px 0; display: flex; justify-content: center;">

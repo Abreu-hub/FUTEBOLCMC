@@ -1,0 +1,445 @@
+{
+"pergunta": "Em que ano a FMF (Federação Mineira de Futebol) foi fundada com o nome original 'Liga Mineira de Desportos Terrestres'?",
+"opcoes": ["1925", "1915", "1930", "1920"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual era o nome original da entidade que depois se tornou a FMF?",
+"opcoes": ["Federação de Futebol de Minas Gerais", "Associação Atlética Mineira", "Liga Mineira de Desportos Terrestres", "Confederação Mineira de Esportes"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que cidade está localizada a sede da FMF?",
+"opcoes": ["Uberlândia", "Belo Horizonte", "Juiz de Fora", "Montes Claros"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual dessas competições é organizada diretamente pela FMF?",
+"opcoes": ["Copa do Nordeste", "Campeonato Brasileiro Série A", "Campeonato Mineiro", "Copa Verde"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual desses clubes faz parte do 'trio de ferro' do futebol mineiro?",
+"opcoes": ["Cruzeiro", "Flamengo", "Corinthians", "São Paulo"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Segundo dados recentes, qual foi o valor aproximado dos investimentos da FMF em 2024?",
+"opcoes": ["R$ 15 milhões", "R$ 25 milhões", "R$ 20 milhões", "R$ 30 milhões"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FMF anunciou o calendário com recorde de 18 competições estaduais?",
+"opcoes": ["2023", "2025", "2024", "2026"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é a principal função da Federação Mineira de Futebol?",
+"opcoes": ["Gerenciar apenas clubes da capital", "Organizar apenas o futebol feminino", "Promover o futebol amador e profissional em todo o estado", "Controlar seleções internacionais"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "A FMF é filiada a qual entidade do futebol brasileiro?",
+"opcoes": ["FIFA", "CONMEBOL", "Confederação Brasileira de Futebol (CBF)", "Federação Paulista de Futebol"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é a data oficial de fundação da atual FMF, conforme o estatuto?",
+"opcoes": ["10 de junho de 1920", "05 de junho de 1915", "22 de abril de 1930", "15 de agosto de 1925"],
+"respostaCorreta": 2
+}
+
+{
+"pergunta": "Em que ano a FMF (Federação Mineira de Futebol) foi fundada com o nome original 'Liga Mineira de Esportes Atléticos'?",
+"opcoes": ["1930", "1920", "1915", "1925"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual era o nome original da entidade que depois se tornou a FMF?",
+"opcoes": ["Confederação Mineira de Esportes", "Liga Mineira de Desportos Terrestres", "Associação Atlética Mineira", "Federação de Futebol de Minas Gerais"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Em que cidade está localizada a sede da FMF?",
+"opcoes": ["Juiz de Fora", "Montes Claros", "Uberlândia", "Belo Horizonte"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual dessas competições é organizada diretamente pela FMF?",
+"opcoes": ["Copa Verde", "Campeonato Mineiro", "Copa do Nordeste", "Campeonato Brasileiro Série A"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual desses clubes faz parte do 'trio de ferro' do futebol mineiro?",
+"opcoes": ["São Paulo", "Flamengo", "Atlético-MG", "Corinthians"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Segundo dados recentes, qual foi o valor aproximado dos investimentos da FMF em 2024?",
+"opcoes": ["R$ 30 milhões", "R$ 25 milhões", "R$ 1 milhão", "R$ 15 milhões"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FMF anunciou o calendário com recorde de 18 competições estaduais?",
+"opcoes": ["2026", "2024", "2025", "2023"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual é a principal função da Federação Mineira de Futebol?",
+"opcoes": ["Organizar apenas o futebol feminino", "Controlar seleções internacionais", "Gerenciar apenas clubes da capital", "Administrar o futebol profissional e amador no estado"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "A FMF é filiada a qual entidade do futebol brasileiro?",
+"opcoes": ["Federação Paulista de Futebol", "FIFA", "Federação Mineira de Futebol", "Confederação Brasileira de Futebol (CBF)"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é a data oficial de fundação da atual FMF, conforme o estatuto?",
+"opcoes": ["05 de março de 1915", "10 de junho de 1920", "22 de abril de 1930", "15 de agosto de 1925"],
+"respostaCorreta": 1
+}{
+"pergunta": "Qual é o nome oficial atual da Federação Mineira de Futebol?",
+"opcoes": ["Liga Mineira de Desportos Terrestres", "Federação Mineira de Futebol (FMF)", "Associação Mineira de Esportes Geraes", "Confederação Atlética de Minas"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual clube mineiro detém o maior número de títulos do Campeonato Mineiro?",
+"opcoes": ["Cruzeiro", "Atlético-MG", "América-MG", "Vila Nova"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Em que data exata a FMF foi fundada originalmente?",
+"opcoes": ["5 de março de 1915", "10 de junho de 1920", "22 de abril de 1930", "15 de agosto de 1925"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual competição de base é organizada pela FMF e reconhecida nacionalmente?",
+"opcoes": ["Copa São Paulo de Futebol Júnior", "Taça BH de Futebol Sub-17", "Copa do Brasil Sub-20", "Supercopa Sub-15"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual foi o primeiro presidente da Liga Mineira de Esportes Atléticos?",
+"opcoes": ["Adriano Aro", "Elmer Guilherme", "Célio Carrão de Castro", "José Guilherme Ferreira"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano o Campeonato Mineiro de 2024 - Módulo I foi disputado?",
+"opcoes": ["De janeiro a abril", "De maio a agosto", "De setembro a dezembro", "De março a junho"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual família tem controlado a FMF por décadas?",
+"opcoes": ["Família Aro", "Família Ferreira", "Família Castro", "Família Guilherme"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantos clubes participaram do Campeonato Mineiro Módulo I de 2024?",
+"opcoes": ["10", "12", "14", "8"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual foi a primeira sede da FMF?",
+"opcoes": ["Rua da Bahia, 1000", "Rua dos Guaorajaras, 671", "Avenida Afonso Pena, 500", "Praça da Liberdade, 200"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Em que ano a FMF anunciou as mudanças no regulamento para o Mineiro de 2025?",
+"opcoes": ["2023", "2024", "2025", "2026"],
+"respostaCorreta": 2
+}{
+"pergunta": "Qual clube mineiro detém o maior número de títulos do Campeonato Mineiro?",
+"opcoes": ["Atlético-MG", "Cruzeiro", "América-MG", "Villa Nova"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual é o endereço da sede atual da FMF em Belo Horizonte?",
+"opcoes": ["Rua da Bahia, 888", "Rua Piauí, 1977", "Avenida Afonso Pena, 500", "Praça da Liberdade, 200"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual competição de base é organizada pela FMF e reconhecida nacionalmente?",
+"opcoes": ["Copa São Paulo de Futebol Júnior", "Copa do Brasil Sub-20", "Taça BH de Futebol Sub-17", "Supercopa Sub-15"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual foi o primeiro presidente da Liga Mineira de Esportes Atléticos?",
+"opcoes": ["Adriano Aro", "Elmer Guilherme", "Célio Carrão de Castro", "José Guilherme Ferreira"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que período o Campeonato Mineiro de 2024 - Módulo I foi disputado?",
+"opcoes": ["De maio a agosto", "De setembro a dezembro", "De março a junho", "De janeiro a abril"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual família tem controlado a FMF por décadas?",
+"opcoes": ["Família Aro", "Família Ferreira", "Família Castro", "Família Guilherme"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantos clubes participaram do Campeonato Mineiro Módulo I de 2024?",
+"opcoes": ["10", "14", "8", "12"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual foi a primeira sede da FMF?",
+"opcoes": ["Rua da Bahia, 1000", "Avenida Afonso Pena, 500", "Praça da Liberdade, 200", "Rua dos Guaorajaras, 671"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano a FMF anunciou as mudanças no regulamento para o Mineiro de 2025?",
+"opcoes": ["2023", "2025", "2026", "2024"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Além do Campeonato Mineiro Módulo I, qual outra competição principal a FMF organiza?",
+"opcoes": ["Copa do Brasil", "Campeonato Brasileiro Série A", "Campeonato Mineiro Segunda Divisão", "Libertadores"],
+"respostaCorreta": 3
+}{
+"pergunta": "Qual é o maior vencedor do Campeonato Mineiro, com 49 títulos até 2024?",
+"opcoes": ["Cruzeiro", "América-MG", "Atlético-MG", "Vila Nova"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual presidente atual da FMF assumiu o cargo em 2018?",
+"opcoes": ["Célio Carrão de Castro", "Elmer Guilherme", "Adriano Aro", "José Guilherme Ferreira"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que período ocorreu o Campeonato Mineiro Módulo I de 2024?",
+"opcoes": ["De maio a agosto", "De janeiro a abril", "De setembro a dezembro", "De março a junho"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual competição de base a FMF organiza anualmente em Belo Horizonte?",
+"opcoes": ["Copa São Paulo de Futebol Júnior", "Supercopa Sub-15", "Copa do Brasil Sub-20", "Taça BH de Futebol Sub-17"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual foi o primeiro campeonato organizado pela FMF em 1915?",
+"opcoes": ["Campeonato Mineiro Módulo II", "Campeonato da Cidade", "Taça BH Sub-17", "Campeonato Mineiro do Interior"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual família manteve o controle da FMF desde 1966 por décadas?",
+"opcoes": ["Família Castro", "Família Aro", "Família Guilherme", "Família Ferreira"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantas edições do Campeonato Mineiro foram disputadas até 2024?",
+"opcoes": ["105", "111", "107", "100"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é a sede atual da FMF em Belo Horizonte?",
+"opcoes": ["Rua da Bahia, 888", "Praça da Liberdade, 200", "Rua Piauí, 1977", "Avenida Afonso Pena, 500"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FMF homologou títulos históricos do Campeonato Mineiro?",
+"opcoes": ["2010", "2012", "2005", "2015"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual divisão secundária do Campeonato Mineiro a FMF organiza?",
+"opcoes": ["Copa do Brasil", "Campeonato Brasileiro Série A", "Campeonato Mineiro Módulo II", "Libertadores"],
+"respostaCorreta": 3
+}{
+"pergunta": "Qual é o número exato de títulos do Campeonato Mineiro conquistados pelo Atlético-MG até o final de 2024?",
+"opcoes": ["48", "50", "49", "51"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço atual da sede da Federação Mineira de Futebol em Belo Horizonte?",
+"opcoes": ["Avenida Olegário Maciel, 311", "Rua Piauí, 1977", "Rua da Bahia, 888", "Praça da Liberdade, 200"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual competição de base a FMF organiza anualmente e que é considerada a segunda mais importante do Brasil na categoria Sub-17?",
+"opcoes": ["Supercopa Sub-15", "Copa do Brasil Sub-20", "Copa São Paulo de Futebol Júnior", "Taça BH de Futebol Sub-17"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano foi anunciada a mudança para a Taça BH ser disputada na categoria Sub-17 em vez de Sub-20?",
+"opcoes": ["2013", "2015", "2017", "2014"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual foi o primeiro torneio oficial organizado pela FMF no ano de sua fundação?",
+"opcoes": ["Campeonato Mineiro do Interior", "Taça BH Sub-17", "Campeonato Mineiro Módulo II", "Campeonato da Cidade"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o mandato atual do presidente Adriano Guilherme de Aro Ferreira na FMF?",
+"opcoes": ["2022-2026", "2018-2022", "2026-2030", "2014-2018"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Quantas equipes foram promovidas do Módulo II para o Módulo I do Campeonato Mineiro de 2025?",
+"opcoes": ["1", "3", "2", "4"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o novo critério de rebaixamento para o Campeonato Mineiro de 2025?",
+"opcoes": ["Triangular final", "Duas últimas da classificação geral na primeira fase", "Pênaltis na semifinal", "Jogos de ida e volta na final"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Em que data exata a FMF completa 110 anos de fundação?",
+"opcoes": ["5 de março de 1915", "10 de junho de 1920", "22 de abril de 1930", "15 de agosto de 1925"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual é o período exato de início e fim do Campeonato Mineiro Módulo I de 2025?",
+"opcoes": ["18 de janeiro a 15 de março", "De maio a agosto", "De setembro a dezembro", "De março a junho"],
+"respostaCorreta": 1
+}{
+"pergunta": "Qual é o total de edições disputadas do Campeonato Mineiro até o final de 2024?",
+"opcoes": ["110", "111", "109", "112"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual família manteve o controle da FMF desde a década de 1960?",
+"opcoes": ["Família Castro", "Família Aro", "Família Ferreira", "Família Guilherme"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano a FMF homologou o título de 1925 do Campeonato Mineiro para o América-MG?",
+"opcoes": ["2010", "2012", "2005", "2015"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é o mandato do presidente Adriano Aro na FMF até o final de 2025?",
+"opcoes": ["2018-2022", "2022-2026", "2026-2030", "2014-2018"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Quantas equipes foram promovidas do Módulo II para o Módulo I em 2025?",
+"opcoes": ["1", "2", "3", "4"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é o critério de rebaixamento para o Campeonato Mineiro de 2025?",
+"opcoes": ["Triangular final", "Pênaltis na semifinal", "Duas últimas da classificação geral na primeira fase", "Jogos de ida e volta na final"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que data exata a FMF foi fundada em 1915?",
+"opcoes": ["5 de março", "10 de junho de 1920", "22 de abril de 1930", "15 de agosto de 1925"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual é o período de realização do Campeonato Mineiro Módulo I de 2025?",
+"opcoes": ["De maio a agosto", "De setembro a dezembro", "De março a junho", "18 de janeiro a 15 de março"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é a principal competição de base organizada pela FMF, considerada a segunda mais importante do Brasil para sub-17?",
+"opcoes": ["Copa São Paulo de Futebol Júnior", "Copa do Brasil Sub-20", "Supercopa Sub-15", "Taça BH de Futebol Sub-17"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano foi anunciada a mudança da Taça BH para a categoria Sub-17?",
+"opcoes": ["2013", "2014", "2015", "2017"],
+"respostaCorreta": 3
+}{
+"pergunta": "Qual é o número total de títulos do Campeonato Mineiro conquistados pelo Cruzeiro até o final de 2024?",
+"opcoes": ["38", "40", "36", "42"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual é o endereço exato da sede atual da FMF em Belo Horizonte?",
+"opcoes": ["Rua da Bahia, 888", "Praça da Liberdade, 200", "Avenida Afonso Pena, 500", "Avenida Olegário Maciel, 311"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano o Atlético-MG conquistou seu 50º título do Campeonato Mineiro?",
+"opcoes": ["2024", "2023", "2025", "2022"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual foi o primeiro torneio organizado pela LMSA em seu ano de fundação?",
+"opcoes": ["Campeonato do Interior", "Taça BH Sub-17", "Campeonato Citadino de Belo Horizonte", "Módulo II"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual clube de Minas Gerais tem a maior sequência de títulos consecutivos no Campeonato Mineiro?",
+"opcoes": ["Atlético-MG", "Cruzeiro", "América-MG", "Vila Nova"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FMF foi transformada a partir da LMDT em federação oficial?",
+"opcoes": ["1918", "1920", "1915", "1930"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é o número de edições oficiais do Campeonato Mineiro até 2024, incluindo homologações?",
+"opcoes": ["110", "112", "111", "109"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual competição de futsal ou futebol de campo secundário a FMF organiza além dos módulos principais?",
+"opcoes": ["Copa do Brasil Sub-20", "Campeonato Mineiro de Futsal", "Taça BH Sub-17", "Supercopa Mineira"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a família Ferreira assumiu o controle da FMF pela primeira vez?",
+"opcoes": ["1966", "1950", "1970", "1960"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual foi o campeão do Campeonato Mineiro do Interior em 2024?",
+"opcoes": ["Tombense", "Uberlândia", "Urt", "Anápolis"],
+"respostaCorreta": 1
+}
+]{
+"pergunta": "Qual clube mineiro conquistou o maior número de títulos consecutivos no Campeonato Mineiro?",
+"opcoes": ["Atlético-MG", "Cruzeiro", "Vila Nova", "América-MG"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano ocorreu a transformação da LMDT na atual FMF?",
+"opcoes": ["1918", "1939", "1920", "1915"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual foi o primeiro torneio organizado pela FMF em 1915?",
+"opcoes": ["Campeonato Mineiro do Interior", "Taça BH Sub-17", "Campeonato da Cidade", "Campeonato Mineiro Módulo II"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço da primeira sede da FMF?",
+"opcoes": ["Rua da Bahia, 1000", "Avenida Afonso Pena, 500", "Praça da Liberdade, 200", "Rua dos Guaorajaras, 671"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual foi o campeão do Campeonato Mineiro do Interior em 2024?",
+"opcoes": ["Uberlândia", "Anápolis", "Tombense", "URT"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Quantas equipes foram promovidas do Módulo II para o Módulo I do Campeonato Mineiro em 2025?",
+"opcoes": ["1", "4", "2", "3"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o critério de rebaixamento para o Campeonato Mineiro de 2025?",
+"opcoes": ["Pênaltis na semifinal", "Triangular final", "Jogos de ida e volta na final", "Duas últimas da classificação geral na primeira fase"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o mandato atual do presidente Adriano Aro na FMF?",
+"opcoes": ["2018-2022", "2026-2030", "2022-2026", "2014-2018"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o número de edições oficiais do Campeonato Mineiro até 2024, incluindo homologações?",
+"opcoes": ["112", "109", "111", "110"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FMF homologou títulos históricos do Campeonato Mineiro?",
+"opcoes": ["2015", "2005", "2012", "2010"],
+"respostaCorreta": 3
+}( refaça essas perguntas sobre o futebol de sao paulo para meu quiz, mas sem repetir as que vc ja mandou, faça de forma randonica as respostas corretas entre as 4

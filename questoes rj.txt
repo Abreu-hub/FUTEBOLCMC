@@ -1,0 +1,442 @@
+{
+"pergunta": "Qual clube carioca conquistou o maior número de títulos consecutivos no Campeonato Carioca?",
+"opcoes": ["Flamengo", "Botafogo", "Fluminense", "Vasco da Gama"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Em que ano ocorreu a transformação da FCF na atual FERJ?",
+"opcoes": ["1978", "1979", "1980", "1977"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual foi o primeiro torneio organizado pela FERJ em 1979?",
+"opcoes": ["Taça Guanabara", "Copa Rio", "Campeonato da Cidade", "Campeonato Carioca de Base"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço da primeira sede da FERJ?",
+"opcoes": ["Avenida Rio Branco, 81", "Rua do Ouvidor, 161", "Praça da República, 200", "Rua da Assembléia, 671"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual foi o campeão da Copa Rio em 2024?",
+"opcoes": ["Maricá", "Olaria", "Portuguesa-RJ", "Boavista"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Quantas equipes foram promovidas da Série B1 para a Série A2 do Campeonato Carioca em 2025?",
+"opcoes": ["1", "4", "2", "3"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o critério de rebaixamento para o Campeonato Carioca de 2025?",
+"opcoes": ["Pênaltis na semifinal", "Triangular final", "Jogos de ida e volta na final", "Último colocado da Taça Guanabara"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o mandato atual do presidente Rubens Lopes na FERJ?",
+"opcoes": ["2018-2022", "2026-2030", "2022-2026", "2023-2027"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número de edições oficiais do Campeonato Carioca até 2024, incluindo homologações?",
+"opcoes": ["126", "123", "127", "125"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FERJ homologou títulos históricos do Campeonato Carioca?",
+"opcoes": ["2015", "2023", "2005", "2012"],
+"respostaCorreta": 2
+}{
+"pergunta": "Qual clube carioca tem o recorde de títulos consecutivos no Campeonato Carioca com quatro vitórias seguidas?",
+"opcoes": ["Flamengo", "Vasco da Gama", "Botafogo", "Fluminense"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que data exata a FERJ foi fundada pela fusão da FCF e FFD?",
+"opcoes": ["29 de setembro de 1978", "15 de março de 1979", "22 de abril de 1980", "10 de junho de 1977"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual foi o primeiro campeonato unificado organizado pela FERJ em 1979?",
+"opcoes": ["Taça Guanabara", "Copa Rio", "Campeonato Estadual do Rio de Janeiro", "Campeonato Carioca de Base"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço atual da sede da FERJ no Maracanã?",
+"opcoes": ["Avenida Rio Branco, 81", "Rua do Ouvidor, 161", "Praça da República, 200", "Rua Radialista Valdir Amaral, 20"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual clube foi vice-campeão da Copa Rio de 2024?",
+"opcoes": ["Maricá", "Olaria", "Portuguesa-RJ", "Boavista"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Quantas equipes disputaram a Série B1 do Campeonato Carioca em 2024?",
+"opcoes": ["1", "4", "2", "10"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Guanabara do Campeonato Carioca de 2025?",
+"opcoes": ["Pênaltis na semifinal", "Triangular final", "Número de vitórias", "Jogos de ida e volta na final"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual foi o ano de início do mandato atual de Rubens Lopes na FERJ?",
+"opcoes": ["2018", "2026", "2022", "2023"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número total de títulos do Flamengo no Campeonato Carioca até 2024?",
+"opcoes": ["126", "123", "38", "125"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano o São Cristóvão teve seu título de 1937 homologado pela FERJ?",
+"opcoes": ["2015", "2023", "2005", "2012"],
+"respostaCorreta": 2
+}{
+"pergunta": "Qual clube tem o maior número de tricampeonatos no Campeonato Carioca?",
+"opcoes": ["Fluminense", "Vasco da Gama", "Flamengo", "Botafogo"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FERJ foi fundada pela fusão da FCF e da FFD?",
+"opcoes": ["1977", "1980", "1979", "1978"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual foi o primeiro torneio organizado pela FERJ em 1979?",
+"opcoes": ["Copa Rio", "Campeonato Estadual Especial", "Taça Guanabara", "Campeonato de Base"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é o endereço da primeira sede da FERJ?",
+"opcoes": ["Rua da Assembléia, 671", "Avenida Rio Branco, 81", "Praça da República, 200", "Rua do Ouvidor, 161"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual foi o vice-campeão da Copa Rio de 2024?",
+"opcoes": ["Boavista", "Portuguesa-RJ", "Olaria", "Maricá"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Quantas equipes disputaram a Série B1 do Campeonato Carioca em 2024?",
+"opcoes": ["12", "8", "10", "9"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Guanabara do Campeonato Carioca de 2025?",
+"opcoes": ["Saldo de gols", "Número de vitórias", "Confronto direto", "Gols marcados"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Em que ano começou o mandato atual de Rubens Lopes na FERJ?",
+"opcoes": ["2022", "2023", "2019", "2020"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é o número total de títulos do Flamengo no Campeonato Carioca até 2024?",
+"opcoes": ["37", "38", "39", "36"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Em que ano a FERJ homologou o título de 1937 do São Cristóvão?",
+"opcoes": ["2022", "2023", "2021", "2024"],
+"respostaCorreta": 2
+}{
+"pergunta": "Qual clube tem o maior número de tricampeonatos no Campeonato Carioca?",
+"opcoes": ["Vasco da Gama", "Botafogo", "Fluminense", "Flamengo"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano a FERJ foi fundada pela fusão da FCF e da FFD?",
+"opcoes": ["1979", "1978", "1980", "1977"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual foi o primeiro torneio organizado pela FERJ em 1979?",
+"opcoes": ["Taça Guanabara", "Campeonato Estadual Especial", "Copa Rio", "Campeonato de Base"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é o endereço da primeira sede da FERJ?",
+"opcoes": ["Rua do Ouvidor, 161", "Praça da República, 200", "Avenida Rio Branco, 81", "Rua da Assembléia, 671"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual foi o vice-campeão da Copa Rio de 2024?",
+"opcoes": ["Portuguesa-RJ", "Boavista", "Maricá", "Olaria"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantas equipes disputaram a Série B1 do Campeonato Carioca em 2024?",
+"opcoes": ["12", "10", "8", "9"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Guanabara do Campeonato Carioca de 2025?",
+"opcoes": ["Confronto direto", "Gols marcados", "Saldo de gols", "Número de vitórias"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano começou o mandato atual de Rubens Lopes na FERJ?",
+"opcoes": ["2022", "2020", "2019", "2023"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número total de títulos do Flamengo no Campeonato Carioca até 2024?",
+"opcoes": ["37", "39", "38", "36"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FERJ homologou o título de 1937 do São Cristóvão?",
+"opcoes": ["2022", "2021", "2024", "2023"],
+"respostaCorreta": 4
+}{
+"pergunta": "Qual clube carioca tem o maior número de títulos do Campeonato Carioca até 2024?",
+"opcoes": ["Vasco da Gama", "Botafogo", "Flamengo", "Fluminense"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual clube tem o segundo maior número de títulos do Campeonato Carioca até 2024?",
+"opcoes": ["Flamengo", "Vasco da Gama", "Fluminense", "Botafogo"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FERJ foi fundada pela fusão da FCF e da FFD?",
+"opcoes": ["1979", "1978", "1980", "1977"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual foi o primeiro torneio organizado pela FERJ em 1979?",
+"opcoes": ["Taça Guanabara", "Copa Rio", "Campeonato Estadual Especial", "Campeonato de Base"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço da primeira sede da FERJ?",
+"opcoes": ["Rua da Assembléia, 671", "Avenida Rio Branco, 81", "Praça da República, 200", "Rua do Ouvidor, 161"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual foi o vice-campeão da Copa Rio de 2024?",
+"opcoes": ["Boavista", "Portuguesa-RJ", "Maricá", "Olaria"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantas equipes disputaram a Série B1 do Campeonato Carioca em 2024?",
+"opcoes": ["12", "10", "8", "9"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Guanabara do Campeonato Carioca de 2025?",
+"opcoes": ["Saldo de gols", "Gols marcados", "Confronto direto", "Número de vitórias"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano começou o mandato atual de Rubens Lopes na FERJ?",
+"opcoes": ["2022", "2020", "2019", "2023"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número total de títulos do Flamengo no Campeonato Carioca até 2024?",
+"opcoes": ["37", "39", "38", "36"],
+"respostaCorreta": 3
+}{
+"pergunta": "Qual clube carioca tem o maior número de títulos do Campeonato Carioca até 2024?",
+"opcoes": ["Fluminense", "Botafogo", "Vasco da Gama", "Flamengo"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual clube tem o segundo maior número de títulos do Campeonato Carioca até 2024?",
+"opcoes": ["Vasco da Gama", "Flamengo", "Botafogo", "Fluminense"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano a FERJ foi fundada pela fusão da FCF e da FFD?",
+"opcoes": ["1979", "1977", "1980", "1978"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual foi o primeiro torneio organizado pela FERJ em 1979?",
+"opcoes": ["Taça Guanabara", "Copa Rio", "Campeonato Estadual Especial", "Campeonato de Base"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço da primeira sede da FERJ?",
+"opcoes": ["Rua da Assembléia, 671", "Rua do Ouvidor, 161", "Avenida Rio Branco, 81", "Praça da República, 200"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual foi o campeão da Copa Rio em 2024?",
+"opcoes": ["Portuguesa-RJ", "Boavista", "Olaria", "Maricá"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantas equipes disputaram a Série B1 do Campeonato Carioca em 2024?",
+"opcoes": ["12", "10", "8", "9"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Guanabara do Campeonato Carioca de 2025?",
+"opcoes": ["Confronto direto", "Saldo de gols", "Número de vitórias", "Gols marcados"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o ano de início do mandato atual de Rubens Lopes na FERJ?",
+"opcoes": ["2018", "2022", "2020", "2023"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número de edições oficiais do Campeonato Carioca até 2024, incluindo homologações?",
+"opcoes": ["126", "123", "127", "125"],
+"respostaCorreta": 3
+}{
+"pergunta": "Qual clube carioca tem o maior número de títulos do Campeonato Carioca até 2024?",
+"opcoes": ["Fluminense", "Botafogo", "Vasco da Gama", "Flamengo"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual clube tem o segundo maior número de títulos do Campeonato Carioca até 2024?",
+"opcoes": ["Vasco da Gama", "Flamengo", "Botafogo", "Fluminense"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano a FERJ foi fundada pela fusão da FCF e da FFD?",
+"opcoes": ["1979", "1977", "1980", "1978"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual foi o primeiro torneio organizado pela FERJ em 1979?",
+"opcoes": ["Taça Guanabara", "Copa Rio", "Campeonato Estadual Especial", "Campeonato de Base"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço da primeira sede da FERJ?",
+"opcoes": ["Rua da Assembléia, 671", "Rua do Ouvidor, 161", "Avenida Rio Branco, 81", "Praça da República, 200"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual foi o campeão da Copa Rio em 2024?",
+"opcoes": ["Portuguesa-RJ", "Boavista", "Olaria", "Maricá"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantas equipes disputaram a Série B1 do Campeonato Carioca em 2024?",
+"opcoes": ["12", "10", "8", "9"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Guanabara do Campeonato Carioca de 2025?",
+"opcoes": ["Confronto direto", "Saldo de gols", "Número de vitórias", "Gols marcados"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o ano de início do mandato atual de Rubens Lopes na FERJ?",
+"opcoes": ["2018", "2022", "2020", "2023"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número de edições oficiais do Campeonato Carioca até 2024, incluindo homologações?",
+"opcoes": ["126", "123", "127", "125"],
+"respostaCorreta": 3
+}{
+"pergunta": "Qual clube carioca conquistou o tetra consecutivo no Campeonato Carioca?",
+"opcoes": ["Flamengo", "Botafogo", "Fluminense", "Vasco da Gama"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é a data exata de fundação da FERJ?",
+"opcoes": ["29 de setembro de 1978", "15 de março de 1979", "22 de abril de 1980", "10 de junho de 1977"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual torneio marcou a unificação do Campeonato Carioca sob a FERJ em 1979?",
+"opcoes": ["Taça Guanabara", "Copa Rio", "Campeonato Estadual Especial", "Taça Rio"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço histórico da primeira sede da FERJ?",
+"opcoes": ["Rua da Assembléia, 671", "Avenida Rio Branco, 81", "Praça da República, 200", "Rua do Ouvidor, 161"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual clube foi vice-campeão da Copa Rio de 2024?",
+"opcoes": ["Boavista", "Portuguesa-RJ", "Maricá", "Olaria"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantas equipes disputaram a Série B1 do Campeonato Carioca em 2024?",
+"opcoes": ["12", "10", "8", "9"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Guanabara de 2025?",
+"opcoes": ["Saldo de gols", "Gols marcados", "Confronto direto", "Número de vitórias"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o mandato atual de Rubens Lopes na FERJ em 2025?",
+"opcoes": ["2018-2022", "2026-2030", "2022-2026", "2023-2027"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número de edições do Campeonato Carioca até 2024?",
+"opcoes": ["126", "123", "127", "125"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano a FERJ homologou títulos históricos como o de 1907?",
+"opcoes": ["2015", "2023", "2005", "1996"],
+"respostaCorreta": 4
+}{
+"pergunta": "Qual clube carioca detém o recorde de tetracampeonato consecutivo no Campeonato Carioca?",
+"opcoes": ["Vasco da Gama", "Flamengo", "Botafogo", "Fluminense"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que data exata foi fundada a FERJ pela fusão da FCF e FFD?",
+"opcoes": ["15 de março de 1979", "22 de abril de 1980", "29 de setembro de 1978", "10 de junho de 1977"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual foi o primeiro campeonato unificado sob a FERJ em 1979?",
+"opcoes": ["Campeonato de Base", "Copa Rio", "Taça Guanabara", "Campeonato Estadual Especial"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o endereço histórico da primeira sede da FERJ?",
+"opcoes": ["Rua do Ouvidor, 161", "Praça da República, 200", "Rua da Assembléia, 671", "Avenida Rio Branco, 81"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual clube foi vice-campeão da Copa Rio de 2024?",
+"opcoes": ["Maricá", "Boavista", "Portuguesa-RJ", "Olaria"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantas equipes disputaram a Série B1 do Campeonato Carioca em 2024?",
+"opcoes": ["8", "10", "12", "9"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Guanabara de 2025?",
+"opcoes": ["Confronto direto", "Gols marcados", "Número de vitórias", "Saldo de gols"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o mandato atual de Rubens Lopes na FERJ em 2025?",
+"opcoes": ["2022-2026", "2026-2030", "2018-2022", "2023-2027"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número de edições do Campeonato Carioca até 2024?",
+"opcoes": ["125", "127", "123", "126"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Em que ano a FERJ homologou títulos históricos como o de 1937 do São Cristóvão?",
+"opcoes": ["2023", "2005", "2015", "2012"],
+"respostaCorreta": 1
+}  ( refaça essas perguntas sobre o futebol de sao paulo para meu quiz, mas sem repetir as que vc ja mandou, faça de forma randonica as respostas corretas entre as 4

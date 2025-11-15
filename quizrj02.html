@@ -15,15 +15,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz Futebol</title>
 
-
 <!-- Botões de ação -->
     <section class="action-buttons">
   <button onclick="window.location.href='index.html'">Página Inicial</button>
 </section>
 
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195"
      crossorigin="anonymous"></script>
+
+
+
 
 
 <style>
@@ -167,58 +168,60 @@
         }
 
         const perguntas = [
-  {
-    pergunta: "Qual estádio é considerado o principal palco do futebol capixaba?",
-    opcoes: ["Estádio Kléber Andrade", "Engenheiro Araripe", "Maracanã", "Castelão"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual clube capixaba já disputou a Série A do Campeonato Brasileiro?",
-    opcoes: ["Vitória-ES", "Rio Branco-ES", "Desportiva Ferroviária", "Linhares FC"],
-    respostaCorreta: 2
-  },
-  {
-    pergunta: "Qual é o município de origem do clube Real Noroeste Capixaba Futebol Clube?",
-    opcoes: ["São Mateus", "Colatina", "Água Doce do Norte", "Águia Branca"],
-    respostaCorreta: 3
-  },
-  {
-    pergunta: "Qual competição estadual define o representante do Espírito Santo na Copa do Brasil?",
-    opcoes: ["Copa ES", "Campeonato Capixaba", "Supercopa Capixaba", "Torneio Início"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual emissora costuma transmitir as finais do Campeonato Capixaba?",
-    opcoes: ["TV Gazeta", "TV Vitória", "TV Tribuna", "RedeTV! ES"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual clube capixaba é conhecido pelo apelido 'Brancão'? ",
-    opcoes: ["Rio Branco-ES", "Vitória-ES", "Serra FC", "Vilavelhense"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual dessas cidades **não** possui clube com participação recente em campeonatos da FES?",
-    opcoes: ["Linhares", "Serra", "Cachoeiro de Itapemirim", "Anchieta"],
-    respostaCorreta: 3
-  },
-  {
-    pergunta: "Em qual década o futebol capixaba viveu seu auge com clubes disputando torneios nacionais?",
-    opcoes: ["1970", "1980", "1990", "2000"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual competição reúne clubes campeões do Capixabão e da Copa ES?",
-    opcoes: ["Supercopa Capixaba", "Taça Espírito Santo", "Copa dos Campeões", "Troféu Capixaba"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Quem é o atual presidente da FES (gestão 2023–2027)?",
-    opcoes: ["Lucas Arruda", "Gustavo Vieira", "João Bosco", "José Carlos Bernabé"],
-    respostaCorreta: 1
-  }
-]
-;
+            
+{
+"pergunta": "Qual clube carioca tem o recorde de títulos consecutivos no Campeonato Carioca com quatro vitórias seguidas?",
+"opcoes": ["Flamengo", "Vasco da Gama", "Botafogo", "Fluminense"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que data exata a FERJ foi fundada pela fusão da FCF e FFD?",
+"opcoes": ["29 de setembro de 1978", "15 de março de 1979", "22 de abril de 1980", "10 de junho de 1977"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual foi o primeiro campeonato unificado organizado pela FERJ em 1979?",
+"opcoes": ["Taça Guanabara", "Copa Rio", "Campeonato Estadual do Rio de Janeiro", "Campeonato Carioca de Base"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço atual da sede da FERJ no Maracanã?",
+"opcoes": ["Avenida Rio Branco, 81", "Rua do Ouvidor, 161", "Praça da República, 200", "Rua Radialista Valdir Amaral, 20"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual clube foi vice-campeão da Copa Rio de 2024?",
+"opcoes": ["Maricá", "Olaria", "Portuguesa-RJ", "Boavista"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Quantas equipes disputaram a Série B1 do Campeonato Carioca em 2024?",
+"opcoes": ["1", "4", "2", "10"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Guanabara do Campeonato Carioca de 2025?",
+"opcoes": ["Pênaltis na semifinal", "Triangular final", "Número de vitórias", "Jogos de ida e volta na final"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual foi o ano de início do mandato atual de Rubens Lopes na FERJ?",
+"opcoes": ["2018", "2026", "2022", "2023"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número total de títulos do Flamengo no Campeonato Carioca até 2024?",
+"opcoes": ["126", "123", "38", "125"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano o São Cristóvão teve seu título de 1937 homologado pela FERJ?",
+"opcoes": ["2015", "2023", "2005", "2012"],
+"respostaCorreta": 2
+}
+
+
+];
 
         let perguntaAtual = 0;
         let acertos = 0;
@@ -323,6 +326,9 @@
         atualizarStatus();
         mostrarPergunta();
     </script>
+
+
+
 <!-- Bloco de anúncio AdSense -->
 <div style="margin: 40px 0; display: flex; justify-content: center;">
   <ins class="adsbygoogle"

@@ -15,7 +15,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz Futebol</title>
 
-
 <!-- Botões de ação -->
     <section class="action-buttons">
   <button onclick="window.location.href='index.html'">Página Inicial</button>
@@ -23,6 +22,9 @@
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195"
      crossorigin="anonymous"></script>
+
+
+
 
 
 <style>
@@ -165,63 +167,57 @@
             document.getElementById("contador").innerText = `Seus Acessos nesta pag: ${contador}`;
         }
 
-        const perguntas = [
-  {
-    pergunta: "Qual é o apelido do estádio municipal de Linhares, utilizado em jogos oficiais do Espírito Santo?",
-    opcoes: ["Arena do Norte", "Estádio Glória", "Ninho do Dragão", "Estádio Joaquim Calmon"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual regra a FES aplica em caso de empate na final de uma competição estadual (quando não há jogo de volta)?",
-    opcoes: ["Prorrogação seguida de pênaltis", "Melhor campanha no campeonato", "Gol qualificado", "Sorteio entre os clubes"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual dessas iniciativas a FES costuma promover para arbitragem local?",
-    opcoes: ["Festival de goleiros", "Curso de formação e atualização para árbitros", "Campeonato de ex-jogadores", "Bolsa de estudo para coaches estrangeiros"],
-    respostaCorreta: 2
-  },
-  {
-    pergunta: "Qual é o principal critério para um clube capixaba ganhar vaga direta na Copa do Brasil pela FES?",
-    opcoes: ["Ter mais torcedores cadastrados", "Ter estádio próprio", "Ser campeão estadual", "Apresentar melhor projeto social"],
-    respostaCorreta: 3
-  },
-  {
-    pergunta: "Qual é o troféu simbólico entregue ao clube com a melhor campanha na fase de grupos do Capixabão (quando existe)?",
-    opcoes: ["Troféu Melhor Campanha", "Taça do Mérito", "Copa Fair Play", "Medalha de Honra ao Mérito"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual dessas ações faz parte das políticas de base apoiadas pela FES?",
-    opcoes: ["Pagamento de salários a jogadores profissionais", "Oficinas de formação para treinadores de base", "Construção de estádios internacionais", "Transmissão exclusiva por TV aberta"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual dessas agremiações já teve uma parceria para sociedade com clube de outro estado visando intercâmbio de atletas?",
-    opcoes: ["Vitória-ES", "Real Noroeste", "Linhares FC", "Rio Branco-ES"],
-    respostaCorreta: 2
-  },
-  {
-    pergunta: "Qual destes itens costuma constar no regulamento de competições da FES para punição disciplinar?",
-    opcoes: ["Multa por empate", "Suspensão automática por cartão vermelho direto", "Troca de pontos entre clubes", "Liberação de torcedores rivais no mesmo setor"], 
-    respostaCorreta: 3
-  },
-  {
-    pergunta: "Qual modalidade a FES já apoiou como projeto social para inclusão pelo futebol?",
-    opcoes: ["Futebol para pessoas com deficiência (paradesporto)", "Corrida de rua amadora", "Basquete juvenil", "Natação comunitária"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual desses números aproxima-se da capacidade do Estádio Kleber Andrade após sua maior reforma?",
-    opcoes: ["12.000", "18.000", "24.000", "22.000"],
-    respostaCorreta: 3
-  }
-]
+        const perguntas = 
 
 
-
-
-;
+            
+[
+{
+"pergunta": "Em que data exata foi fundada a FPF?",
+"opcoes": ["10 de junho de 1942", "15 de março de 1940", "29 de setembro de 1941", "22 de abril de 1941"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual foi o primeiro campeonato organizado pela FPF em 1941?",
+"opcoes": ["Campeonato Paulista de 1941", "Copa São Paulo de Juniores", "Campeonato de Base", "Taça Cidade de São Paulo"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual é o endereço histórico da primeira sede da FPF em São Paulo?",
+"opcoes": ["Praça da República, 200", "Rua da Assembléia, 671", "Avenida Rio Branco, 81", "Avenida Brigadeiro Luiz Antônio, 905"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual clube foi vice-campeão da Copa Paulista de 2024?",
+"opcoes": ["Votuporanguense", "Maricá", "Portuguesa-RJ", "Boavista"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Quantas equipes disputaram a Série A2 do Campeonato Paulista em 2024?",
+"opcoes": ["12", "10", "16", "8"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Paulista de 2025?",
+"opcoes": ["Número de vitórias", "Confronto direto", "Gols marcados", "Saldo de gols"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o mandato atual de Reinaldo Carneiro Bastos na FPF em 2025?",
+"opcoes": ["2023-2027", "2018-2022", "2022-2026", "2026-2030"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual é o número de edições do Campeonato Paulista até 2024?",
+"opcoes": ["123", "126", "125", "127"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Em que ano a FPF homologou o título de 1931 do São Paulo?",
+"opcoes": ["2012", "2005", "2015", "2017"],
+"respostaCorreta": 4
+}
+]      ;
 
         let perguntaAtual = 0;
         let acertos = 0;
@@ -327,6 +323,8 @@
         mostrarPergunta();
     </script>
 
+
+
 <!-- Bloco de anúncio AdSense -->
 <div style="margin: 40px 0; display: flex; justify-content: center;">
   <ins class="adsbygoogle"
@@ -339,6 +337,7 @@
        (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
 </div>
+
 
 </body>
 </html>

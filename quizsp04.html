@@ -15,16 +15,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz Futebol</title>
 
-
 <!-- Botões de ação -->
     <section class="action-buttons">
   <button onclick="window.location.href='index.html'">Página Inicial</button>
 </section>
 
-
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195"
      crossorigin="anonymous"></script>
+
+
+
 
 
 <style>
@@ -167,61 +167,57 @@
             document.getElementById("contador").innerText = `Seus Acessos nesta pag: ${contador}`;
         }
 
-        const perguntas = [
-  {
-    pergunta: "Qual clube capixaba é conhecido como 'Alvianil de Bento Ferreira'?",
-    opcoes: ["Vitória-ES", "Rio Branco-ES", "Serra FC", "Vilavelhense"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Em que ano o Estádio Kléber Andrade foi reinaugurado após reforma completa?",
-    opcoes: ["2014", "2010", "2016", "2012"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual desses clubes conquistou a Copa Espírito Santo em 2022?",
-    opcoes: ["Nova Venécia", "Real Noroeste", "Desportiva Ferroviária", "Vitória-ES"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual é o principal objetivo da Supercopa Capixaba?",
-    opcoes: ["Decidir o acesso à Série D", "Unir os campeões do Capixabão e da Copa ES", "Selecionar atletas para a base da FES", "Revelar novos árbitros"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Em que cidade fica localizado o Estádio Engenheiro Araripe, casa da Desportiva Ferroviária?",
-    opcoes: ["Vila Velha", "Cariacica", "Vitória", "Serra"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual desses clubes já representou o Espírito Santo na Copa do Brasil?",
-    opcoes: ["Serra FC", "Real Noroeste", "Ambos", "Nenhum"],
-    respostaCorreta: 2
-  },
-  {
-    pergunta: "Qual dessas funções também faz parte das responsabilidades da FES?",
-    opcoes: ["Organizar campeonatos de basquete", "Gerir o futebol profissional e de base", "Fiscalizar clubes de fora do estado", "Administrar ginásios municipais"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Em que década foi criada a Taça Cidade de Vitória, torneio tradicional do futebol capixaba?",
-    opcoes: ["1960", "1970", "1980", "1990"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual desses clubes tem o apelido de 'Tigre da Barra'?",
-    opcoes: ["Linhares FC", "Vilavelhense", "Serra FC", "Nova Venécia"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual estádio foi usado como centro de treinamento durante a Copa do Mundo de 2014 no ES?",
-    opcoes: ["Kléber Andrade", "Araripe", "Sumaré", "Roberto Siqueira"],
-    respostaCorreta: 0
-  }
-]
+        const perguntas = 
 
 
-;
+            
+[
+{
+"pergunta": "Em que data exata foi fundada a FPF?",
+"opcoes": ["29 de setembro de 1941", "15 de março de 1940", "22 de abril de 1941", "10 de junho de 1942"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual foi o primeiro campeonato organizado pela FPF em 1941?",
+"opcoes": ["Taça Cidade de São Paulo", "Campeonato Paulista de 1941", "Copa São Paulo de Juniores", "Campeonato de Base"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é o endereço histórico da primeira sede da FPF?",
+"opcoes": ["Avenida Brigadeiro Luiz Antônio, 905", "Praça da República, 200", "Rua da Assembléia, 671", "Avenida Rio Branco, 81"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual clube foi vice-campeão da Copa Paulista de 2024?",
+"opcoes": ["Votuporanguense", "Boavista", "Portuguesa-RJ", "Maricá"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Quantas equipes disputaram a Série A2 do Campeonato Paulista em 2024?",
+"opcoes": ["10", "16", "8", "12"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Paulista de 2025?",
+"opcoes": ["Número de vitórias", "Saldo de gols", "Confronto direto", "Gols marcados"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual é o mandato atual de Reinaldo Carneiro Bastos na FPF em 2025?",
+"opcoes": ["2022-2026", "2026-2030", "2018-2022", "2023-2027"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número de edições do Campeonato Paulista até 2024?",
+"opcoes": ["125", "123", "126", "127"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano a FPF homologou o título de 1931 do São Paulo?",
+"opcoes": ["2012", "2005", "2015", "2017"],
+"respostaCorreta": 4
+}
+]   ;
 
         let perguntaAtual = 0;
         let acertos = 0;
@@ -326,6 +322,8 @@
         atualizarStatus();
         mostrarPergunta();
     </script>
+
+
 
 <!-- Bloco de anúncio AdSense -->
 <div style="margin: 40px 0; display: flex; justify-content: center;">

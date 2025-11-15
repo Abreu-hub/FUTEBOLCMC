@@ -15,7 +15,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz Futebol</title>
 
-
 <!-- Botões de ação -->
     <section class="action-buttons">
   <button onclick="window.location.href='index.html'">Página Inicial</button>
@@ -23,6 +22,9 @@
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195"
      crossorigin="anonymous"></script>
+
+
+
 
 
 <style>
@@ -166,61 +168,59 @@
         }
 
         const perguntas = [
-  {
-    pergunta: "Qual é o nome do mascote oficial da Desportiva Ferroviária?",
-    opcoes: ["Leão Grená", "Águia Rubra", "Tigre Grená", "Pantera Capixaba"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual clube capixaba foi campeão da Série B do Campeonato Capixaba em 2023?",
-    opcoes: ["SC Brasil Capixaba", "Vilavelhense", "Linhares FC", "Pinheiros"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Em que cidade fica o Estádio Olímpio Perim, utilizado em competições da FES?",
-    opcoes: ["Venda Nova do Imigrante", "Colatina", "Afonso Cláudio", "São Mateus"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual competição organizada pela FES é voltada exclusivamente para categorias Sub-20?",
-    opcoes: ["Campeonato Capixaba Sub-20", "Copa Jovem Capixaba", "Taça de Base FES", "Copa Juniores do ES"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Em que ano o Real Noroeste conquistou seu primeiro título do Campeonato Capixaba?",
-    opcoes: ["2020", "2021", "2019", "2018"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual clube capixaba tem as cores preto e branco como principais?",
-    opcoes: ["Vitória-ES", "Rio Branco-ES", "Nova Venécia", "Serra FC"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual destes jogadores capixabas atuou profissionalmente no exterior?",
-    opcoes: ["Paulo Sérgio", "Adriano Louzada", "Leandrinho", "Rodrigo Cordeiro"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual competição estadual serve de preparação para o Campeonato Capixaba Série B?",
-    opcoes: ["Copa FES de Acesso", "Copa ES", "Torneio Início", "Taça Capixaba de Preparação"],
-    respostaCorreta: 2
-  },
-  {
-    pergunta: "Qual dessas cidades já recebeu jogos da Copa Espírito Santo?",
-    opcoes: ["Anchieta", "Aracruz", "Castelo", "Mucurici"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Quantos clubes geralmente participam da Série A do Campeonato Capixaba?",
-    opcoes: ["8", "10", "12", "16"],
-    respostaCorreta: 1
-  }
-]
+            
+{
+"pergunta": "Qual é o número exato de títulos do Campeonato Mineiro conquistados pelo Atlético-MG até o final de 2024?",
+"opcoes": ["48", "50", "49", "51"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o endereço atual da sede da Federação Mineira de Futebol em Belo Horizonte?",
+"opcoes": ["Avenida Olegário Maciel, 311", "Rua Piauí, 1977", "Rua da Bahia, 888", "Praça da Liberdade, 200"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual competição de base a FMF organiza anualmente e que é considerada a segunda mais importante do Brasil na categoria Sub-17?",
+"opcoes": ["Supercopa Sub-15", "Copa do Brasil Sub-20", "Copa São Paulo de Futebol Júnior", "Taça BH de Futebol Sub-17"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano foi anunciada a mudança para a Taça BH ser disputada na categoria Sub-17 em vez de Sub-20?",
+"opcoes": ["2013", "2015", "2017", "2014"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual foi o primeiro torneio oficial organizado pela FMF no ano de sua fundação?",
+"opcoes": ["Campeonato Mineiro do Interior", "Taça BH Sub-17", "Campeonato Mineiro Módulo II", "Campeonato da Cidade"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o mandato atual do presidente Adriano Guilherme de Aro Ferreira na FMF?",
+"opcoes": ["2022-2026", "2018-2022", "2026-2030", "2014-2018"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Quantas equipes foram promovidas do Módulo II para o Módulo I do Campeonato Mineiro de 2025?",
+"opcoes": ["1", "3", "2", "4"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o novo critério de rebaixamento para o Campeonato Mineiro de 2025?",
+"opcoes": ["Triangular final", "Duas últimas da classificação geral na primeira fase", "Pênaltis na semifinal", "Jogos de ida e volta na final"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Em que data exata a FMF completa 110 anos de fundação?",
+"opcoes": ["5 de março de 1915", "10 de junho de 1920", "22 de abril de 1930", "15 de agosto de 1925"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual é o período exato de início e fim do Campeonato Mineiro Módulo I de 2025?",
+"opcoes": ["18 de janeiro a 15 de março", "De maio a agosto", "De setembro a dezembro", "De março a junho"],
+"respostaCorreta": 1
+}
 
-
-
-;
+];
 
         let perguntaAtual = 0;
         let acertos = 0;
@@ -325,6 +325,8 @@
         atualizarStatus();
         mostrarPergunta();
     </script>
+
+
 
 <!-- Bloco de anúncio AdSense -->
 <div style="margin: 40px 0; display: flex; justify-content: center;">

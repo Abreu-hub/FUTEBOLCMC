@@ -15,7 +15,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz Futebol</title>
 
-
 <!-- Botões de ação -->
     <section class="action-buttons">
   <button onclick="window.location.href='index.html'">Página Inicial</button>
@@ -23,6 +22,9 @@
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195"
      crossorigin="anonymous"></script>
+
+
+
 
 
 <style>
@@ -165,62 +167,57 @@
             document.getElementById("contador").innerText = `Seus Acessos nesta pag: ${contador}`;
         }
 
-        const perguntas = [
-  {
-    pergunta: "Qual é o nome do mascote oficial da Desportiva Ferroviária?",
-    opcoes: ["Leão Grená", "Águia Rubra", "Tigre Grená", "Pantera Capixaba"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual clube capixaba foi campeão da Série B do Campeonato Capixaba em 2023?",
-    opcoes: ["SC Brasil Capixaba", "Vilavelhense", "Linhares FC", "Pinheiros"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Em que cidade fica o Estádio Olímpio Perim, utilizado em competições da FES?",
-    opcoes: ["Venda Nova do Imigrante", "Colatina", "Afonso Cláudio", "São Mateus"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual competição organizada pela FES é voltada exclusivamente para categorias Sub-20?",
-    opcoes: ["Campeonato Capixaba Sub-20", "Copa Jovem Capixaba", "Taça de Base FES", "Copa Juniores do ES"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Em que ano o Real Noroeste conquistou seu primeiro título do Campeonato Capixaba?",
-    opcoes: ["2020", "2021", "2019", "2018"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual clube capixaba tem as cores preto e branco como principais?",
-    opcoes: ["Vitória-ES", "Rio Branco-ES", "Nova Venécia", "Serra FC"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual destes jogadores capixabas atuou profissionalmente no exterior?",
-    opcoes: ["Paulo Sérgio", "Adriano Louzada", "Leandrinho", "Rodrigo Cordeiro"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual competição estadual serve de preparação para o Campeonato Capixaba Série B?",
-    opcoes: ["Copa FES de Acesso", "Copa ES", "Torneio Início", "Taça Capixaba de Preparação"],
-    respostaCorreta: 2
-  },
-  {
-    pergunta: "Qual dessas cidades já recebeu jogos da Copa Espírito Santo?",
-    opcoes: ["Anchieta", "Aracruz", "Castelo", "Mucurici"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Quantos clubes geralmente participam da Série A do Campeonato Capixaba?",
-    opcoes: ["8", "10", "12", "16"],
-    respostaCorreta: 1
-  }
-]
+        const perguntas = 
 
 
-
-;
+            
+[
+{
+"pergunta": "Em que data exata foi fundada a FPF?",
+"opcoes": ["15 de março de 1940", "10 de junho de 1942", "22 de abril de 1941", "29 de setembro de 1941"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual foi o primeiro campeonato organizado pela FPF em 1941?",
+"opcoes": ["Copa São Paulo de Juniores", "Campeonato de Base", "Taça Cidade de São Paulo", "Campeonato Paulista de 1941"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o endereço histórico da primeira sede da FPF em São Paulo?",
+"opcoes": ["Rua da Assembléia, 671", "Praça da República, 200", "Avenida Rio Branco, 81", "Avenida Brigadeiro Luiz Antônio, 905"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual clube foi vice-campeão da Copa Paulista de 2024?",
+"opcoes": ["Portuguesa-RJ", "Maricá", "Boavista", "Votuporanguense"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantas equipes disputaram a Série A2 do Campeonato Paulista em 2024?",
+"opcoes": ["8", "12", "16", "10"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Qual é o principal critério de desempate na Taça Paulista de 2025?",
+"opcoes": ["Gols marcados", "Confronto direto", "Número de vitórias", "Saldo de gols"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o mandato atual de Reinaldo Carneiro Bastos na FPF em 2025?",
+"opcoes": ["2026-2030", "2018-2022", "2022-2026", "2023-2027"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Qual é o número de edições do Campeonato Paulista até 2024?",
+"opcoes": ["125", "127", "123", "126"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Em que ano a FPF homologou o título de 1931 do São Paulo?",
+"opcoes": ["2015", "2005", "2012", "2017"],
+"respostaCorreta": 4
+}
+]      ;
 
         let perguntaAtual = 0;
         let acertos = 0;
@@ -325,6 +322,8 @@
         atualizarStatus();
         mostrarPergunta();
     </script>
+
+
 
 <!-- Bloco de anúncio AdSense -->
 <div style="margin: 40px 0; display: flex; justify-content: center;">

@@ -15,15 +15,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz Futebol</title>
 
-
 <!-- Botões de ação -->
     <section class="action-buttons">
   <button onclick="window.location.href='index.html'">Página Inicial</button>
 </section>
 
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074669766193195"
      crossorigin="anonymous"></script>
+
+
+
+
 
 <style>
     body {
@@ -166,59 +168,60 @@
         }
 
         const perguntas = [
-  {
-    pergunta: "Qual clube capixaba conquistou o Campeonato Capixaba de 2024?",
-    opcoes: ["Vitória-ES", "Real Noroeste", "Serra FC", "Rio Branco-ES"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual cidade sediou a decisão da Copa Espírito Santo de 2023?",
-    opcoes: ["Linhares", "Águia Branca", "Cariacica", "Serra"],
-    respostaCorreta: 3
-  },
-  {
-    pergunta: "Qual é o nome do torneio de base promovido pela FES para jovens de até 17 anos?",
-    opcoes: ["Campeonato Capixaba Sub-17", "Copa FES de Juniores", "Torneio Esperança", "Taça Capixaba Juvenil"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual clube tem o apelido de 'Tricolor Serrano'?",
-    opcoes: ["Desportiva Ferroviária", "Serra FC", "Vitória-ES", "Vilavelhense"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "O estádio Sumaré está localizado em qual cidade capixaba?",
-    opcoes: ["São Mateus", "Colatina", "Vitória", "Vila Velha"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual dessas competições estaduais garante vaga na Série D do Campeonato Brasileiro?",
-    opcoes: ["Supercopa Capixaba", "Campeonato Capixaba", "Copa ES", "Torneio Início"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual desses clubes foi fundado por funcionários da antiga Companhia Vale do Rio Doce?",
-    opcoes: ["Desportiva Ferroviária", "Rio Branco-ES", "Vitória-ES", "Vilavelhense"],
-    respostaCorreta: 0
-  },
-  {
-    pergunta: "Qual jogador capixaba se destacou nacionalmente jogando pelo Flamengo nos anos 1980?",
-    opcoes: ["Zico", "Adílio", "Bebeto", "Tita"],
-    respostaCorreta: 3
-  },
-  {
-    pergunta: "Quantas federações estaduais de futebol existem oficialmente filiadas à CBF, incluindo a FES?",
-    opcoes: ["26", "27", "28", "25"],
-    respostaCorreta: 1
-  },
-  {
-    pergunta: "Qual é o nome da competição promovida pela FES para clubes femininos?",
-    opcoes: ["Copa Espírito Santo Feminina", "Campeonato Capixaba Feminino", "Superliga Capixaba", "Taça das Estrelas"],
-    respostaCorreta: 1
-  }
-]
+            
+ {
+"pergunta": "Qual é o nome oficial atual da Federação Mineira de Futebol?",
+"opcoes": ["Liga Mineira de Desportos Terrestres", "Federação Mineira de Futebol (FMF)", "Associação Mineira de Esportes Geraes", "Confederação Atlética de Minas"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual clube mineiro detém o maior número de títulos do Campeonato Mineiro?",
+"opcoes": ["Cruzeiro", "Atlético-MG", "América-MG", "Vila Nova"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Em que data exata a FMF foi fundada originalmente?",
+"opcoes": ["5 de março de 1915", "10 de junho de 1920", "22 de abril de 1930", "15 de agosto de 1925"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual competição de base é organizada pela FMF e reconhecida nacionalmente?",
+"opcoes": ["Copa São Paulo de Futebol Júnior", "Taça BH de Futebol Sub-17", "Copa do Brasil Sub-20", "Supercopa Sub-15"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual foi o primeiro presidente da Liga Mineira de Esportes Atléticos?",
+"opcoes": ["Adriano Aro", "Elmer Guilherme", "Célio Carrão de Castro", "José Guilherme Ferreira"],
+"respostaCorreta": 3
+},
+{
+"pergunta": "Em que ano o Campeonato Mineiro de 2024 - Módulo I foi disputado?",
+"opcoes": ["De janeiro a abril", "De maio a agosto", "De setembro a dezembro", "De março a junho"],
+"respostaCorreta": 1
+},
+{
+"pergunta": "Qual família tem controlado a FMF por décadas?",
+"opcoes": ["Família Aro", "Família Ferreira", "Família Castro", "Família Guilherme"],
+"respostaCorreta": 4
+},
+{
+"pergunta": "Quantos clubes participaram do Campeonato Mineiro Módulo I de 2024?",
+"opcoes": ["10", "12", "14", "8"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Qual foi a primeira sede da FMF?",
+"opcoes": ["Rua da Bahia, 1000", "Rua dos Guaorajaras, 671", "Avenida Afonso Pena, 500", "Praça da Liberdade, 200"],
+"respostaCorreta": 2
+},
+{
+"pergunta": "Em que ano a FMF anunciou as mudanças no regulamento para o Mineiro de 2025?",
+"opcoes": ["2023", "2024", "2025", "2026"],
+"respostaCorreta": 2
+}
 
-;
+
+];
 
         let perguntaAtual = 0;
         let acertos = 0;
@@ -324,6 +327,8 @@
         mostrarPergunta();
     </script>
 
+
+
 <!-- Bloco de anúncio AdSense -->
 <div style="margin: 40px 0; display: flex; justify-content: center;">
   <ins class="adsbygoogle"
@@ -336,6 +341,7 @@
        (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
 </div>
+
 
 </body>
 </html>
